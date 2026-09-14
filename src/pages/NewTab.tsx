@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import type { VocabularyWord, QuizQuestion, QuizType } from '../types/vocabulary';
-import type { UserSettings } from '../types/userProgress';
+import { type UserSettings, DEFAULT_SETTINGS } from '../types/userProgress';
 import { VocabularyCard } from '../components/VocabularyCard';
 import { Quiz } from '../components/Quiz';
 import { CountdownTimer } from '../components/CountdownTimer';
@@ -8,6 +8,7 @@ import { selectNextWord, recordAnswer } from '../services/spacedRepetition';
 import { generateQuiz } from '../services/quiz';
 import {
   getUserSettings,
+  saveUserSettings,
   isFavorite,
   saveFavorite,
   removeFavorite,
@@ -144,6 +145,17 @@ export const NewTab: React.FC = () => {
         <span className="empty-icon">📚</span>
         <h2>No words available</h2>
         <p>Try adjusting your category and difficulty settings.</p>
+        <button
+          className="btn-primary"
+          style={{ marginTop: '16px', padding: '8px 20px', borderRadius: '8px', cursor: 'pointer' }}
+          onClick={async () => {
+            await saveUserSettings(DEFAULT_SETTINGS);
+            setSettings(DEFAULT_SETTINGS);
+            loadNextWord();
+          }}
+        >
+          Reset Filters & Show Words
+        </button>
       </div>
     );
   }

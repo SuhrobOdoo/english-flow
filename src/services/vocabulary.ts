@@ -35,9 +35,31 @@ export function filterWords(
   categories: Category[],
   levels: DifficultyLevel[]
 ): VocabularyWord[] {
-  return loadVocabulary().filter(
-    (w) => categories.includes(w.category) && levels.includes(w.level)
+  const all = loadVocabulary();
+  if (all.length === 0) return [];
+
+  // Exact match
+  const exact = all.filter(
+    (w) =>
+      (categories.length === 0 || categories.includes(w.category)) &&
+      (levels.length === 0 || levels.includes(w.level))
   );
+  if (exact.length > 0) return exact;
+
+  // Fallback 1: match requested levels from any category
+  if (levels.length > 0) {
+    const levelMatch = all.filter((w) => levels.includes(w.level));
+    if (levelMatch.length > 0) return levelMatch;
+  }
+
+  // Fallback 2: match requested categories from any level
+  if (categories.length > 0) {
+    const catMatch = all.filter((w) => categories.includes(w.category));
+    if (catMatch.length > 0) return catMatch;
+  }
+
+  // Fallback 3: return all words
+  return all;
 }
 
 export function searchWords(query: string): VocabularyWord[] {

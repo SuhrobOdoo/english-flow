@@ -70,7 +70,7 @@ export interface FavoriteEntry {
 
 export const DEFAULT_SETTINGS: UserSettings = {
   dailyWords: 10,
-  difficulties: ['B1', 'B2'],
+  difficulties: ['A1', 'A2', 'B1', 'B2'],
   categories: ['general'],
   quizTypes: ['translation', 'context', 'fill-blank', 'meaning', 'sentence'],
   autoRotate: false,
