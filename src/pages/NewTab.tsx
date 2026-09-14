@@ -1,7 +1,8 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import type { VocabularyWord, QuizQuestion, QuizType } from '../types/vocabulary';
 import { type UserSettings, DEFAULT_SETTINGS } from '../types/userProgress';
 import { VocabularyCard } from '../components/VocabularyCard';
+import { GrammarPanel } from '../components/GrammarPanel';
 import { Quiz } from '../components/Quiz';
 import { CountdownTimer } from '../components/CountdownTimer';
 import { selectNextWord, recordAnswer } from '../services/spacedRepetition';
@@ -27,7 +28,7 @@ export const NewTab: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [quizAnswered, setQuizAnswered] = useState(false);
   const [fadeIn, setFadeIn] = useState(false);
-  const quizRef = useRef<HTMLDivElement>(null);
+  const [grammarTrigger, setGrammarTrigger] = useState(0);
 
   const loadNextWord = useCallback(async (currentWordId?: string) => {
     const s = settings ?? await getUserSettings();
@@ -54,6 +55,7 @@ export const NewTab: React.FC = () => {
         });
       }
       setLoading(false);
+      setGrammarTrigger((prev) => prev + 1);
       setTimeout(() => setFadeIn(true), 50);
     }, 200);
   }, [settings]);
@@ -169,19 +171,23 @@ export const NewTab: React.FC = () => {
           onToggleFavorite={handleToggleFavorite}
         />
 
-        <div ref={quizRef}>
-          <Quiz
-            question={quiz}
-            onAnswer={handleQuizAnswer}
-            onNext={handleNextWord}
-          />
-        </div>
+        <GrammarPanel triggerRefresh={String(grammarTrigger)} />
 
-        <CountdownTimer
-          remaining={remaining}
-          enabled={settings?.autoRotate ?? false}
+        <Quiz
+          question={quiz}
+          onAnswer={handleQuizAnswer}
+          onNext={handleNextWord}
         />
       </div>
+      
+      {settings?.autoRotate && (
+        <div style={{ position: 'absolute', bottom: '80px', left: '50%', transform: 'translateX(-50%)', zIndex: 50 }}>
+          <CountdownTimer
+            remaining={remaining}
+            enabled={settings.autoRotate}
+          />
+        </div>
+      )}
     </div>
   );
 };

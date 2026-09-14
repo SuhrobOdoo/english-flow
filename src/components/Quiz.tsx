@@ -51,11 +51,12 @@ export const Quiz: React.FC<QuizProps> = ({ question, onAnswer, onNext }) => {
   const optionLetters = ['A', 'B', 'C', 'D'];
 
   return (
-    <div className="quiz-section" role="region" aria-label="Quiz">
-      <div className="quiz-header">
-        <span className="quiz-type-badge">{QUIZ_TYPE_LABELS[question.type]}</span>
-        <h2 className="quiz-title">Quiz</h2>
-      </div>
+    <div className="newtab-panel quiz-panel" role="region" aria-label="Quiz">
+      <div className="panel-inner-scroll">
+        <div className="quiz-header compact">
+          <span className="quiz-type-badge">{QUIZ_TYPE_LABELS[question.type]}</span>
+          <h2 className="quiz-title">QUIZ</h2>
+        </div>
 
       {/* Context sentence for context-type questions */}
       {question.contextSentence && (
@@ -132,8 +133,9 @@ export const Quiz: React.FC<QuizProps> = ({ question, onAnswer, onNext }) => {
       )}
 
       {!answered && (
-        <p className="quiz-hint">Press 1-4 or A-D to answer, Enter for next</p>
+        <p className="quiz-hint" style={{ marginTop: 'auto', paddingTop: '16px' }}>Press 1-4 or A-D to answer, Enter for next</p>
       )}
+      </div>
     </div>
   );
 };

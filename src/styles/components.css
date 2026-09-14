@@ -732,3 +732,57 @@
   justify-content: center;
   padding: var(--space-3);
 }
+
+/* ─── Compact Panel Overrides (Redesign) ─── */
+.panel-inner-scroll {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 4px;
+}
+.panel-inner-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.card-word-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-4);
+}
+
+.card-word.compact {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.card-actions-compact {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.card-translation.compact {
+  font-size: 1rem;
+  padding: var(--space-1) var(--space-3);
+  margin-bottom: var(--space-5);
+  display: inline-block;
+}
+
+.card-section.compact-section {
+  margin-bottom: var(--space-4);
+}
+
+.card-example.compact, .card-usage.compact {
+  padding: var(--space-2) var(--space-3);
+  font-size: 0.85rem;
+}
+
+.card-badges.compact {
+  margin-bottom: var(--space-3);
+}
+
+.card-meta-row.compact {
+  gap: var(--space-2);
+}
+

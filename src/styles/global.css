@@ -17,7 +17,9 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
-  min-height: 100vh;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
   transition: background-color var(--transition-base), color var(--transition-base);
 }
 
@@ -25,13 +27,16 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 .app-main {
   flex: 1;
   padding-bottom: 80px; /* Space for bottom nav */
-  overflow-y: auto;
+  overflow: hidden;
+  min-height: 0;
 }
 
 /* ─── Focus States ─── */

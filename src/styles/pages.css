@@ -26,12 +26,32 @@
 .newtab-page {
   display: flex;
   justify-content: center;
-  padding: var(--space-6);
+  padding: var(--space-4);
+  height: 100%;
+  width: 100%;
 }
 
 .newtab-content {
   width: 100%;
-  max-width: 640px;
+  max-width: 1600px; /* Wider to accommodate 3 columns */
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+  align-items: stretch; /* Make panels equal height */
+}
+
+.newtab-panel {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-xl);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden; /* Hide overflow to prevent scrolling */
+  position: relative;
 }
 
 /* ─── Section Card ─── */
@@ -318,6 +338,31 @@
 }
 
 /* ─── Responsive ─── */
+@media (max-width: 1024px) {
+  .newtab-content {
+    grid-template-columns: repeat(2, 1fr);
+    overflow-y: auto;
+  }
+  /* On 2 columns, make quiz span both or hide grammar */
+  .newtab-panel:nth-child(2) {
+    display: none; /* Hide grammar on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .newtab-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .newtab-page {
+    height: auto;
+  }
+  .newtab-panel {
+    height: auto;
+    overflow: visible;
+  }
+}
+
 @media (max-width: 600px) {
   .page-content {
     padding: var(--space-4);
