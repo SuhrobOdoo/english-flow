@@ -11,198 +11,198 @@ export interface GrammarRule {
 export const englishGrammarRules: GrammarRule[] = [
   {
     id: 'present_perfect',
-    title: 'Present Perfect',
-    description: 'We use Present Perfect for experiences, recent actions, and actions connected to the present.',
+    title: 'Present Perfect (Hozirgi tugallangan zamon)',
+    description: 'Biz Present Perfect ni hayotiy tajribalar, yaqin o\'tmishdagi ish-harakatlar va hozirgi paytga aloqasi bor bo\'lgan ish-harakatlar uchun ishlatamiz.',
     structure: 'have / has + V3 (past participle)',
     examples: [
       'I have postponed the meeting.',
       'She has already finished the task.'
     ],
-    keyPoint: 'Focus is on the result now, not when it happened.',
-    detailedExplanation: 'The Present Perfect connects the past and the present. It is often used with words like "just", "already", "yet", "ever", and "never". You cannot use it with specific past time expressions (like "yesterday").'
+    keyPoint: 'Asosiy e\'tibor ish-harakatning qachon sodir bo\'lganiga emas, balki hozirgi natijasiga qaratiladi.',
+    detailedExplanation: 'Present Perfect o\'tmish va hozirgi zamonni bog\'laydi. U ko\'pincha "just", "already", "yet", "ever" va "never" kabi so\'zlar bilan ishlatiladi. Uni aniq o\'tmish vaqtini bildiruvchi so\'zlar (masalan, "yesterday") bilan ishlata olmaysiz.'
   },
   {
     id: 'past_simple',
-    title: 'Past Simple',
-    description: 'Used for completed actions in the past at a specific time.',
-    structure: 'V2 (past tense) or did + V1',
+    title: 'Past Simple (Oddiy o\'tgan zamon)',
+    description: 'O\'tmishda aniq bir vaqtda sodir bo\'lib tugagan ish-harakatlar uchun ishlatiladi.',
+    structure: 'V2 (past tense) yoki did + V1',
     examples: [
       'I postponed the meeting yesterday.',
       'Did she finish the task?'
     ],
-    keyPoint: 'Always refers to a finished time period.',
-    detailedExplanation: 'Use the Past Simple when the time of the action is finished, such as "last week", "yesterday", or "in 2010". For regular verbs, add "-ed". Irregular verbs must be memorized.'
+    keyPoint: 'Doim tugallangan vaqt oralig\'iga ishora qiladi.',
+    detailedExplanation: 'Past Simple ni ish-harakat vaqti tugagan bo\'lsa (masalan, "last week", "yesterday" yoki "in 2010") ishlating. To\'g\'ri fe\'llarga "-ed" qo\'shiladi. Noto\'g\'ri fe\'llarni esa yodlash kerak.'
   },
   {
     id: 'present_continuous',
-    title: 'Present Continuous',
-    description: 'Used for actions happening right now, or temporary situations.',
+    title: 'Present Continuous (Hozirgi davomiy zamon)',
+    description: 'Ayni paytda sodir bo\'layotgan ish-harakatlar yoki vaqtinchalik holatlar uchun ishlatiladi.',
     structure: 'am / is / are + V-ing',
     examples: [
       'I am working on the project now.',
       'They are studying English this month.'
     ],
-    keyPoint: 'Highlights temporary or ongoing actions.',
-    detailedExplanation: 'The Present Continuous emphasizes that an action is in progress at the time of speaking. It can also describe temporary habits or future arrangements.'
+    keyPoint: 'Vaqtinchalik yoki davom etayotgan harakatlarni ta\'kidlaydi.',
+    detailedExplanation: 'Present Continuous ish-harakat gapirilayotgan vaqtda davom etayotganini ta\'kidlaydi. Shuningdek, u vaqtinchalik odatlar yoki kelajakdagi aniq rejalar uchun ham ishlatilishi mumkin.'
   },
   {
     id: 'gerund_vs_infinitive',
-    title: 'Gerund vs Infinitive',
-    description: 'Some verbs are followed by V-ing (gerund), others by to + V1 (infinitive).',
+    title: 'Gerund va Infinitive',
+    description: 'Ba\'zi fe\'llardan keyin V-ing (gerund), boshqalaridan keyin esa to + V1 (infinitive) keladi.',
     structure: 'Verb + V-ing / Verb + to + V1',
     examples: [
       'I enjoy reading. (enjoy + gerund)',
       'I want to read. (want + infinitive)'
     ],
-    keyPoint: 'Memorize the common verbs for each group.',
-    detailedExplanation: 'A gerund acts like a noun (e.g., reading, swimming). Verbs like enjoy, mind, and avoid take gerunds. Verbs like want, decide, and hope take infinitives (to + verb).'
+    keyPoint: 'Har bir guruh uchun eng ko\'p ishlatiladigan fe\'llarni yodlab oling.',
+    detailedExplanation: 'Gerund ot kabi vazifani bajaradi (masalan, reading, swimming). Enjoy, mind va avoid kabi fe\'llar gerund talab qiladi. Want, decide va hope kabi fe\'llar infinitive (to + fe\'l) talab qiladi.'
   },
   {
     id: 'first_conditional',
-    title: 'First Conditional',
-    description: 'Used for real or possible situations in the future.',
+    title: 'First Conditional (Birinchi shart ergash gap)',
+    description: 'Kelajakdagi real yoki bo\'lishi mumkin bo\'lgan holatlar uchun ishlatiladi.',
     structure: 'If + Present Simple, will + V1',
     examples: [
       'If it rains, we will stay home.',
       'If you study hard, you will pass.'
     ],
-    keyPoint: 'Condition must happen first for the result to occur.',
-    detailedExplanation: 'The First Conditional is built with an "if" clause in the present tense, and a main clause in the future (will). It describes realistic scenarios.'
+    keyPoint: 'Natija yuz berishi uchun avval shart bajarilishi kerak.',
+    detailedExplanation: 'First Conditional hozirgi zamondagi "if" (agar) qismi va kelajak zamondagi (will) asosiy qismdan tuziladi. U haqiqiy va yuz berishi ehtimoli yuqori bo\'lgan stsenariylarni tasvirlaydi.'
   },
   {
     id: 'passive_voice',
-    title: 'Passive Voice',
-    description: 'Focuses on the action and the object, rather than who did it.',
+    title: 'Passive Voice (Majhul nisbat)',
+    description: 'Ish-harakatni kim bajarganiga emas, balki ish-harakatning o\'ziga va obyektga e\'tibor qaratadi.',
     structure: 'be + V3 (past participle)',
     examples: [
       'The meeting was postponed.',
       'The house is being cleaned.'
     ],
-    keyPoint: 'Use when the actor is unknown or unimportant.',
-    detailedExplanation: 'In passive sentences, the object of an active sentence becomes the subject. The tense is shown by the verb "to be", followed by the past participle of the main verb.'
+    keyPoint: 'Harakatni bajaruvchi noma\'lum yoki ahamiyatsiz bo\'lganda foydalaning.',
+    detailedExplanation: 'Majhul nisbatda (passive voice) aniq nisbatdagi (active) gapning obyekti egaga aylanadi. Zamon "to be" fe\'li bilan ko\'rsatiladi va undan keyin asosiy fe\'lning o\'tgan zamon sifatdoshi (V3) keladi.'
   }
 ];
 
 export const russianGrammarRules: GrammarRule[] = [
   {
     id: 'ru_nominative',
-    title: 'Nominative Case (Именительный падеж)',
-    description: 'The basic form of a noun, used for the subject of a sentence.',
-    structure: 'Who? What? (Кто? Что?)',
+    title: 'Именительный падеж (Bosh kelishik)',
+    description: 'Otlarning asosiy lug\'at shakli, gapda ega vazifasini bajaradi.',
+    structure: 'Kim? Nima? (Кто? Что?)',
     examples: [
-      'Это мой дом. (This is my house.)',
-      'Студент читает. (The student is reading.)'
+      'Это мой дом. (Bu mening uyim.)',
+      'Студент читает. (Talaba o\'qiyapti.)'
     ],
-    keyPoint: 'Always answers Who/What is performing the action.',
-    detailedExplanation: 'The Nominative case is the dictionary form of a word. It is used exclusively for the subject of the sentence (the doer of the action) and after the verb "to be" in identifying something.'
+    keyPoint: 'Harakatni kim/nima bajarayotganini bildiradi.',
+    detailedExplanation: 'Именительный падеж (Bosh kelishik) so\'zning lug\'at shakli hisoblanadi. U har doim gapning egasi (harakatni bajaruvchisi) uchun yoki "to be" (bo\'lmoq) ma\'nosida biror narsani tanishtirishda ishlatiladi.'
   },
   {
     id: 'ru_accusative',
-    title: 'Accusative Case (Винительный падеж)',
-    description: 'Used for the direct object of an action (what is being acted upon).',
-    structure: 'Whom? What? (Кого? Что?)',
+    title: 'Винительный падеж (Tushum kelishigi)',
+    description: 'Harakatning to\'g\'ridan-to\'g\'ri obyektini ko\'rsatish uchun ishlatiladi (harakat nima/kim ustida bajarilayotgani).',
+    structure: 'Kimni? Nimani? (Кого? Что?)',
     examples: [
-      'Я читаю книгу. (I am reading a book.)',
-      'Я вижу Анну. (I see Anna.)'
+      'Я читаю книгу. (Men kitobni o\'qiyapman.)',
+      'Я вижу Анну. (Men Annani ko\'ryapman.)'
     ],
-    keyPoint: 'Changes ending for feminine (-а → -у) and animate masculine nouns.',
-    detailedExplanation: 'The Accusative case indicates the direct object. Feminine nouns ending in -а change to -у. Masculine animate nouns (people/animals) take the Genitive ending, while inanimate masculine and neuter nouns do not change.'
+    keyPoint: 'Muannas (Jenskiy) jinsidagi otlar (-а → -у) ga o\'zgaradi, shuningdek jonli muzhskoy jinsdagi otlar o\'zgaradi.',
+    detailedExplanation: 'Винительный падеж to\'g\'ri to\'ldiruvchini ko\'rsatadi. -a bilan tugaydigan muannas jinsidagi otlar -y ga o\'zgaradi. Jonli (odamlar/hayvonlar) muzhskoy jinsdagi otlar qaratqich kelishigi (Genitive) qo\'shimchasini oladi, jonsiz muzhskoy va sredniy jinsdagi otlar esa o\'zgarmaydi.'
   },
   {
     id: 'ru_genitive',
-    title: 'Genitive Case (Родительный падеж)',
-    description: 'Indicates possession (of), absence, or quantities.',
-    structure: 'Whom? What? (Кого? Чего?)',
+    title: 'Родительный падеж (Qaratqich kelishigi)',
+    description: 'Tegishlilik (qaratqichlik), yo\'qlik (нет) yoki miqdorni bildiradi.',
+    structure: 'Kimning? Nimaning? (Кого? Чего?)',
     examples: [
-      'У меня нет брата. (I do not have a brother.)',
-      'Книга студента. (The student\'s book.)'
+      'У меня нет брата. (Mening akam yo\'q.)',
+      'Книга студента. (Talabaning kitobi.)'
     ],
-    keyPoint: 'Used heavily after "нет" (there is no) and to show ownership.',
-    detailedExplanation: 'Genitive case translates to "of" in English. Masculine/neuter nouns generally add -а or -я. Feminine nouns change -а to -ы or -и. It is also used after many prepositions like из (from), до (until), and без (without).'
+    keyPoint: '"Нет" (yo\'q) so\'zidan keyin va egalikni bildirish uchun ko\'p ishlatiladi.',
+    detailedExplanation: 'Родительный падеж ingliz tilidagi "of" va o\'zbek tilidagi "-ning" qo\'shimchasiga to\'g\'ri keladi. Muzhskoy/sredniy jinsdagi otlar asosan -а yoki -я qo\'shimchasini oladi. Muannas jinsidagi otlarda -а o\'rniga -ы yoki -и keladi. U shuningdek из (-dan), до (-gacha), va без (-siz) kabi predloglar bilan ko\'p ishlatiladi.'
   },
   {
     id: 'ru_dative',
-    title: 'Dative Case (Дательный падеж)',
-    description: 'Indicates the indirect object (to whom or for whom).',
-    structure: 'To whom? To what? (Кому? Чему?)',
+    title: 'Дательный падеж (Jo\'nalish kelishigi)',
+    description: 'Vositali to\'ldiruvchini bildiradi (kimga yoki nimaga).',
+    structure: 'Kimga? Nimaga? (Кому? Чему?)',
     examples: [
-      'Я даю книгу Анне. (I am giving the book to Anna.)',
-      'Мне нравится это. (I like this. / This is pleasing to me.)'
+      'Я даю книгу Анне. (Men kitobni Annaga beryapman.)',
+      'Мне нравится это. (Bu menga yoqadi.)'
     ],
-    keyPoint: 'Very common with verbs of giving, telling, and feelings.',
-    detailedExplanation: 'Dative case is used for the receiver of an action. Masculine nouns usually add -у/-ю, while feminine nouns ending in -а change to -е. It is also used with ages (Ему 20 лет = To him is 20 years).'
+    keyPoint: 'Berish, aytish, va tuyg\'ularni ifodalovchi fe\'llar bilan tez-tez ishlatiladi.',
+    detailedExplanation: 'Дательный падеж harakatni qabul qiluvchiga nisbatan ishlatiladi. Muzhskoy jinsdagi otlar odatda -у/-ю ni, -a bilan tugaydigan muannas jinsidagi otlar esa -e ni qabul qiladi. Shuningdek u yoshni aytishda ham ishlatiladi (Ему 20 лет = Unga 20 yosh).'
   },
   {
     id: 'ru_instrumental',
-    title: 'Instrumental Case (Творительный падеж)',
-    description: 'Shows the instrument used to do something, or accompaniment (with).',
-    structure: 'By whom? With what? (Кем? Чем?)',
+    title: 'Творительный падеж (Vosita kelishigi)',
+    description: 'Biror narsani bajarish vositasini yoki hamrohlikni (bilan) ko\'rsatadi.',
+    structure: 'Kim tomonidan? Nima bilan? (Кем? Чем?)',
     examples: [
-      'Я пишу карандашом. (I am writing with a pencil.)',
-      'Я иду с другом. (I am walking with a friend.)'
+      'Я пишу карандашом. (Men qalam bilan yozyapman.)',
+      'Я иду с другом. (Men do\'stim bilan ketyapman.)'
     ],
-    keyPoint: 'Used after the preposition "с" (with) and for professions (was/will be).',
-    detailedExplanation: 'Instrumental indicates the means by which an action is performed. Masculine nouns usually end in -ом/-ем, and feminine nouns end in -ой/-ей. It is frequently used with the preposition "с" (meaning "with" someone/something).'
+    keyPoint: '"С" (bilan) predlogidan keyin va kasblarni (bo\'lgan/bo\'ladi) aytishda ishlatiladi.',
+    detailedExplanation: 'Vosita kelishigi harakat qanday vosita yordamida bajarilganini bildiradi. Muzhskoy jinsdagi otlar asosan -ом/-ем bilan, muannas jinsidagilar esa -ой/-ей bilan tugaydi. Ko\'pincha kim/nima bilan ma\'nosidagi "с" predlogi bilan keladi.'
   },
   {
     id: 'ru_prepositional',
-    title: 'Prepositional Case (Предложный падеж)',
-    description: 'Used only with prepositions to indicate location (in, at, on) or topic (about).',
-    structure: 'About whom? About what? (О ком? О чём?) / Where? (Где?)',
+    title: 'Предложный падеж (O\'rin-payt kelishigi)',
+    description: 'Faqat predloglar bilan ishlatiladi va joylashuvni (-da) yoki mavzuni (haqida) ko\'rsatadi.',
+    structure: 'Kim haqida? Nima haqida? (О ком? О чём?) / Qayerda? (Где?)',
     examples: [
-      'Я живу в Москве. (I live in Moscow.)',
-      'Мы говорим о работе. (We are talking about work.)'
+      'Я живу в Москве. (Men Moskvada yashayman.)',
+      'Мы говорим о работе. (Biz ish haqida gaplashyapmiz.)'
     ],
-    keyPoint: 'Never used without a preposition.',
-    detailedExplanation: 'The Prepositional case usually indicates location with "в" (in) and "на" (on/at), or topic with "о" (about). The most common ending for singular nouns of all genders is -е.'
+    keyPoint: 'Hech qachon predlogsiz ishlatilmaydi.',
+    detailedExplanation: 'Предложный падеж (Prepositional case) odatda joylashuvni bildirish uchun "в" (ichida) va "на" (ustida/-da) bilan yoki mavzuni bildirish uchun "о" (haqida) bilan ishlatiladi. Barcha jinsdagi birlik otlar uchun eng ko\'p tarqalgan qo\'shimcha bu -е dir.'
   },
   {
     id: 'ru_verb_aspects',
-    title: 'Verb Aspects (Виды глагола)',
-    description: 'Russian verbs come in pairs: Imperfective (process/habit) and Perfective (result/completion).',
-    structure: 'Imperfective vs Perfective',
+    title: 'Глаголы (Fe\'l turlari)',
+    description: 'Rus tilidagi fe\'llar ikkiga bo\'linadi: Novermukammal (jarayon/odat) va Mukammal (natija/yakunlanganlik).',
+    structure: 'Imperfective (НСВ) vs Perfective (СВ)',
     examples: [
-      'Я читал книгу. (I was reading a book. - process)',
-      'Я прочитал книгу. (I completely read the book. - result)'
+      'Я читал книгу. (Men kitobni o\'qiyotgan edim. - jarayon)',
+      'Я прочитал книгу. (Men kitobni to\'liq o\'qib bo\'ldim. - natija)'
     ],
-    keyPoint: 'Perfective verbs cannot be used in the present tense.',
-    detailedExplanation: 'Imperfective verbs focus on the action itself, repetition, or duration. Perfective verbs focus on the completion, result, or a single specific event. Perfective verbs only have past and future tenses.'
+    keyPoint: 'Mukammal (Perfective) fe\'llar hozirgi zamonda ishlatilmaydi.',
+    detailedExplanation: 'Imperfective (НСВ) fe\'llar harakatning o\'ziga, uning takrorlanishiga yoki davomiyligiga e\'tibor qaratadi. Perfective (СВ) fe\'llar esa harakatning to\'liq tugashiga, natijaga yoki aniq bir marta yuz bergan hodisaga qaratiladi. Perfective fe\'llarda faqat o\'tgan va kelasi zamon mavjud.'
   },
   {
     id: 'ru_past_tense',
-    title: 'Past Tense (Прошедшее время)',
-    description: 'Russian past tense changes based on the gender and number of the subject, not the person.',
-    structure: 'Drop -ть, add -л (m), -ла (f), -ло (n), or -ли (pl)',
+    title: 'Прошедшее время (O\'tgan zamon)',
+    description: 'Rus tilida o\'tgan zamon shaxsga qarab emas, balki eganing jinsi va soniga qarab o\'zgaradi.',
+    structure: '-ть ni olib tashlang, o\'rniga -л (erkak), -ла (ayol), -ло (sredniy), yoki -ли (ko\'plik) qo\'shing',
     examples: [
-      'Он читал. (He read.)',
-      'Она читала. (She read.)',
-      'Они читали. (They read.)'
+      'Он читал. (U o\'qidi - o\'g\'il bola.)',
+      'Она читала. (U o\'qidi - qiz bola.)',
+      'Они читали. (Ular o\'qishdi.)'
     ],
-    keyPoint: 'Gender agreement is strictly required in the past tense.',
-    detailedExplanation: 'Unlike present tense which conjugates by person (I, you, he), past tense acts more like an adjective. If a woman is speaking, she must say "Я читала" (I read - feminine), while a man says "Я читал".'
+    keyPoint: 'O\'tgan zamonda so\'z jinsga (erkak/ayol) qat\'iy moslashishi kerak.',
+    detailedExplanation: 'Hozirgi zamondan farqli o\'laroq (men, sen, u ga qarab o\'zgaradi), o\'tgan zamon ko\'proq sifatga o\'xshab ketadi. Agar ayol kishi gapirayotgan bo\'lsa, u albatta "Я читала" (ayol jinsi) deyishi kerak, erkak kishi esa "Я читал" deydi.'
   },
   {
     id: 'ru_motion_verbs',
-    title: 'Verbs of Motion (Глаголы движения)',
-    description: 'Russian distinguishes between unidirectional (one way) and multidirectional (round trip/habit) motion.',
-    structure: 'Идти (one way) vs Ходить (multidirectional)',
+    title: 'Глаголы движения (Harakat fe\'llari)',
+    description: 'Rus tili bir yo\'nalishli (bir tomonga) va ko\'p yo\'nalishli (qaytish/odat) harakatlarni farqlaydi.',
+    structure: 'Идти (bir yo\'nalish) vs Ходить (ko\'p yo\'nalish/odat)',
     examples: [
-      'Я иду в магазин. (I am on my way to the store right now.)',
-      'Я хожу в магазин каждый день. (I go to the store every day.)'
+      'Я иду в магазин. (Men hozir do\'konga ketyapman.)',
+      'Я хожу в магазин каждый день. (Men do\'konga har kuni boraman.)'
     ],
-    keyPoint: 'Choose the verb based on whether the trip is habitual or happening right now in one direction.',
-    detailedExplanation: 'Motion verbs are grouped in pairs (unidirectional / multidirectional). Another important distinction is how you travel: идти/ходить are on foot, while ехать/ездить imply using a vehicle.'
+    keyPoint: 'Safaringiz odatiy bo\'lishiga yoki ayni paytda bir yo\'nalishda ketayotganingizga qarab fe\'lni tanlang.',
+    detailedExplanation: 'Harakat fe\'llari guruhlarga ajratilgan (bir yo\'nalishli / ko\'p yo\'nalishli). Yana bir muhim jihat - qanday sayohat qilish: идти/ходить piyoda yurish bo\'lsa, ехать/ездить transport vositasida yurishni bildiradi.'
   },
   {
     id: 'ru_to_have',
-    title: 'Expressing "To Have" (У меня есть...)',
-    description: 'Instead of a verb "to have", Russian uses a construction meaning "by me there is".',
-    structure: 'У + [Genitive] + есть + [Nominative]',
+    title: '"Bor/Ega bo\'lmoq" (У меня есть...)',
+    description: 'Ingliz tilidagi "to have" fe\'li o\'rniga, rus tili "Menda ... bor" degan maxsus qurilmani ishlatadi.',
+    structure: 'У + [Qaratqich kelishigi (Genitive)] + есть + [Bosh kelishik (Nominative)]',
     examples: [
-      'У меня есть машина. (I have a car.)',
-      'У брата есть проблема. (The brother has a problem.)'
+      'У меня есть машина. (Menda mashina bor. / Mening mashinam bor.)',
+      'У брата есть проблема. (Akamda muammo bor.)'
     ],
-    keyPoint: 'The thing possessed is the subject (Nominative), and the owner is in Genitive.',
-    detailedExplanation: 'This structure literally translates to "At me there is...". To express lack ("do not have"), drop "есть" and put the object in the Genitive case: "У меня нет машины" (I do not have a car).'
+    keyPoint: 'Egalik qilinayotgan narsa ega (Nominative) hisoblanadi, egasi esa Genitive da bo\'ladi.',
+    detailedExplanation: 'Ushbu qurilma aynan "Mening oldimda ... bor" degan ma\'noni beradi. Yo\'qlikni bildirish ("yo\'q") uchun "есть" so\'zini olib tashlang va obyektni Qaratqich kelishigida qoldiring: "У меня нет машины" (Menda mashina yo\'q).'
   }
 ];

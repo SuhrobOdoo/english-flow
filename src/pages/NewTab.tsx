@@ -39,7 +39,7 @@ export const NewTab: React.FC = () => {
       const nextWord = await selectNextWord(s.categories, s.difficulties, currentWordId, s.targetLanguage);
       if (nextWord) {
         setWord(nextWord);
-        setQuiz(generateQuiz(nextWord, s.quizTypes as QuizType[]));
+        setQuiz(generateQuiz(nextWord, s.quizTypes as QuizType[], s.targetLanguage));
         setQuizAnswered(false);
         const favStatus = await isFavorite(nextWord.id);
         setIsFav(favStatus);

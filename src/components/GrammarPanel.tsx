@@ -23,7 +23,7 @@ export const GrammarPanel: React.FC<GrammarPanelProps> = ({ triggerRefresh, targ
   return (
     <div className="newtab-panel grammar-panel">
       <div className="panel-inner-scroll">
-        <h2 className="card-section-title">GRAMMAR</h2>
+        <h2 className="card-section-title">GRAMMATIKA</h2>
         <h1 className="card-word compact" style={{ fontSize: '1.4rem', marginBottom: '8px' }}>{rule.title}</h1>
         
         <p className="card-usage compact" style={{ marginBottom: '12px', background: 'transparent', padding: '0', fontSize: '0.9rem' }}>
@@ -31,14 +31,14 @@ export const GrammarPanel: React.FC<GrammarPanelProps> = ({ triggerRefresh, targ
         </p>
 
         <div className="card-section compact-section">
-          <h2 className="card-section-title">Structure</h2>
+          <h2 className="card-section-title">Struktura</h2>
           <div className="card-translation compact" style={{ background: 'var(--accent-info-light)', color: 'var(--accent-info)', marginBottom: '0' }}>
             {rule.structure}
           </div>
         </div>
 
         <div className="card-section compact-section">
-          <h2 className="card-section-title">Examples</h2>
+          <h2 className="card-section-title">Misollar</h2>
           <ul className="card-examples">
             {rule.examples.map((example, i) => (
               <li key={i} className="card-example compact" style={{ borderLeftColor: 'var(--accent-info)' }}>
@@ -49,7 +49,7 @@ export const GrammarPanel: React.FC<GrammarPanelProps> = ({ triggerRefresh, targ
         </div>
 
         <div className="card-section compact-section" style={{ marginTop: 'auto', background: 'var(--bg-tertiary)', padding: '12px', borderRadius: '8px' }}>
-          <h2 className="card-section-title" style={{ color: 'var(--accent-primary)' }}>KEY POINT</h2>
+          <h2 className="card-section-title" style={{ color: 'var(--accent-primary)' }}>ASOSIY QOIDA</h2>
           <p style={{ fontSize: '0.85rem', fontWeight: 500 }}>{rule.keyPoint}</p>
         </div>
         
@@ -59,7 +59,7 @@ export const GrammarPanel: React.FC<GrammarPanelProps> = ({ triggerRefresh, targ
             style={{ width: '100%' }}
             onClick={() => setIsModalOpen(true)}
           >
-            More →
+            Batafsil →
           </button>
         </div>
       </div>
@@ -77,17 +77,17 @@ export const GrammarPanel: React.FC<GrammarPanelProps> = ({ triggerRefresh, targ
               <p className="grammar-modal-desc">{rule.description}</p>
               
               <div className="grammar-modal-section">
-                <h3>Structure</h3>
+                <h3>Struktura</h3>
                 <div className="grammar-modal-structure">{rule.structure}</div>
               </div>
               
               <div className="grammar-modal-section">
-                <h3>Detailed Explanation</h3>
+                <h3>Batafsil tushuntirish</h3>
                 <p>{rule.detailedExplanation}</p>
               </div>
 
               <div className="grammar-modal-section">
-                <h3>Examples</h3>
+                <h3>Misollar</h3>
                 <ul className="grammar-modal-examples">
                   {rule.examples.map((ex, i) => (
                     <li key={i}>{ex}</li>
@@ -96,7 +96,7 @@ export const GrammarPanel: React.FC<GrammarPanelProps> = ({ triggerRefresh, targ
               </div>
 
               <div className="grammar-modal-key">
-                <strong>Key Point:</strong> {rule.keyPoint}
+                <strong>Asosiy qoida:</strong> {rule.keyPoint}
               </div>
             </div>
           </div>

@@ -16,9 +16,10 @@ function shuffleArray<T>(arr: T[]): T[] {
 
 function getDistractors(
   correctWord: VocabularyWord,
-  count: number
+  count: number,
+  targetLanguage: 'en' | 'ru'
 ): VocabularyWord[] {
-  return getRandomWords(count, [correctWord.id]);
+  return getRandomWords(count, [correctWord.id], undefined, undefined, targetLanguage);
 }
 
 /**
@@ -26,8 +27,8 @@ function getDistractors(
  * "What does 'postpone' mean?"
  * Options: Uzbek translations (one correct, three distractors)
  */
-function generateTranslationQuiz(word: VocabularyWord): QuizQuestion {
-  const distractors = getDistractors(word, 3);
+function generateTranslationQuiz(word: VocabularyWord, targetLanguage: 'en' | 'ru'): QuizQuestion {
+  const distractors = getDistractors(word, 3, targetLanguage);
   const correctId = generateId();
 
   const options: QuizOption[] = shuffleArray([
@@ -52,8 +53,8 @@ function generateTranslationQuiz(word: VocabularyWord): QuizQuestion {
  * Quiz Type 2: Choose the correct sentence
  * Shows multiple sentences, one uses the word correctly
  */
-function generateSentenceQuiz(word: VocabularyWord): QuizQuestion {
-  const distractors = getDistractors(word, 3);
+function generateSentenceQuiz(word: VocabularyWord, targetLanguage: 'en' | 'ru'): QuizQuestion {
+  const distractors = getDistractors(word, 3, targetLanguage);
   const correctId = generateId();
 
   // Use a real example from the word
@@ -81,8 +82,8 @@ function generateSentenceQuiz(word: VocabularyWord): QuizQuestion {
  * Quiz Type 3: Fill in the blank
  * "We need to ______ the meeting because the manager is unavailable."
  */
-function generateFillBlankQuiz(word: VocabularyWord): QuizQuestion {
-  const distractors = getDistractors(word, 3);
+function generateFillBlankQuiz(word: VocabularyWord, targetLanguage: 'en' | 'ru'): QuizQuestion {
+  const distractors = getDistractors(word, 3, targetLanguage);
   const correctId = generateId();
 
   // Create blank sentence from example
@@ -120,8 +121,8 @@ function generateFillBlankQuiz(word: VocabularyWord): QuizQuestion {
  * Quiz Type 4: Choose the correct English word
  * Shows Uzbek translation, user picks the English word
  */
-function generateMeaningQuiz(word: VocabularyWord): QuizQuestion {
-  const distractors = getDistractors(word, 3);
+function generateMeaningQuiz(word: VocabularyWord, targetLanguage: 'en' | 'ru'): QuizQuestion {
+  const distractors = getDistractors(word, 3, targetLanguage);
   const correctId = generateId();
 
   const options: QuizOption[] = shuffleArray([
@@ -146,8 +147,8 @@ function generateMeaningQuiz(word: VocabularyWord): QuizQuestion {
  * Quiz Type 5: Meaning from context
  * Shows a sentence with the word, user must pick the meaning
  */
-function generateContextQuiz(word: VocabularyWord): QuizQuestion {
-  const distractors = getDistractors(word, 3);
+function generateContextQuiz(word: VocabularyWord, targetLanguage: 'en' | 'ru'): QuizQuestion {
+  const distractors = getDistractors(word, 3, targetLanguage);
   const correctId = generateId();
   const contextSentence = word.examples[Math.floor(Math.random() * word.examples.length)];
 
@@ -170,7 +171,7 @@ function generateContextQuiz(word: VocabularyWord): QuizQuestion {
   };
 }
 
-const QUIZ_GENERATORS: Record<QuizType, (word: VocabularyWord) => QuizQuestion> = {
+const QUIZ_GENERATORS: Record<QuizType, (word: VocabularyWord, lang: 'en' | 'ru') => QuizQuestion> = {
   translation: generateTranslationQuiz,
   sentence: generateSentenceQuiz,
   'fill-blank': generateFillBlankQuiz,
@@ -184,7 +185,8 @@ const QUIZ_GENERATORS: Record<QuizType, (word: VocabularyWord) => QuizQuestion> 
  */
 export function generateQuiz(
   word: VocabularyWord,
-  allowedTypes?: QuizType[]
+  allowedTypes?: QuizType[],
+  targetLanguage: 'en' | 'ru' = 'en'
 ): QuizQuestion {
   const types = allowedTypes?.length
     ? allowedTypes
@@ -193,5 +195,5 @@ export function generateQuiz(
   const selectedType = types[Math.floor(Math.random() * types.length)];
   const generator = QUIZ_GENERATORS[selectedType];
 
-  return generator(word);
+  return generator(word, targetLanguage);
 }
