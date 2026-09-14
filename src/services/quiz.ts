@@ -42,7 +42,7 @@ function generateTranslationQuiz(word: VocabularyWord, targetLanguage: 'en' | 'r
 
   return {
     type: 'translation',
-    question: `What does "${word.word}" mean?`,
+    question: `"${word.word}" qanday ma'noni anglatadi?`,
     options,
     correctOptionId: correctId,
     wordId: word.id,
@@ -64,14 +64,14 @@ function generateSentenceQuiz(word: VocabularyWord, targetLanguage: 'en' | 'ru')
     { id: correctId, text: correctExample, isCorrect: true },
     ...distractors.map((d) => ({
       id: generateId(),
-      text: d.examples[Math.floor(Math.random() * d.examples.length)] || `The ${d.word} was completed.`,
+      text: d.examples[Math.floor(Math.random() * d.examples.length)] || `Это было ${d.word}.`,
       isCorrect: false,
     })),
   ]);
 
   return {
     type: 'sentence',
-    question: `Which sentence uses "${word.word}" correctly?`,
+    question: `Qaysi gapda "${word.word}" so'zi to'g'ri qo'llanilgan?`,
     options,
     correctOptionId: correctId,
     wordId: word.id,
@@ -95,7 +95,7 @@ function generateFillBlankQuiz(word: VocabularyWord, targetLanguage: 'en' | 'ru'
     blankSentence = example.replace(wordRegex, '______');
   } else {
     // Fallback: create a generic blank sentence
-    blankSentence = `We need to ______ in this situation. (${word.translation})`;
+    blankSentence = `Bo'sh joyga to'g'ri keluvchi so'zni toping: ______ . (${word.translation})`;
   }
 
   const options: QuizOption[] = shuffleArray([
@@ -109,7 +109,7 @@ function generateFillBlankQuiz(word: VocabularyWord, targetLanguage: 'en' | 'ru'
 
   return {
     type: 'fill-blank',
-    question: 'Fill in the blank:',
+    question: 'Bo\'sh joyni to\'ldiring:',
     blankSentence,
     options,
     correctOptionId: correctId,
@@ -136,7 +136,7 @@ function generateMeaningQuiz(word: VocabularyWord, targetLanguage: 'en' | 'ru'):
 
   return {
     type: 'meaning',
-    question: `Which English word means "${word.translation}"?`,
+    question: `Qaysi so'z "${word.translation}" ma'nosini bildiradi?`,
     options,
     correctOptionId: correctId,
     wordId: word.id,
@@ -163,7 +163,7 @@ function generateContextQuiz(word: VocabularyWord, targetLanguage: 'en' | 'ru'):
 
   return {
     type: 'context',
-    question: `What does "${word.word}" mean in this context?`,
+    question: `Ushbu gapda "${word.word}" qanday ma'noda kelgan?`,
     contextSentence,
     options,
     correctOptionId: correctId,
