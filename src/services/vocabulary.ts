@@ -1,41 +1,47 @@
 import type { VocabularyWord, Category, DifficultyLevel } from '../types/vocabulary';
-import vocabularyData from '../data/vocabulary.json';
+import vocabularyDataEn from '../data/vocabulary.json';
+import vocabularyDataRu from '../data/vocabulary_ru.json';
 
-let cachedVocabulary: VocabularyWord[] | null = null;
+const cachedVocabulary: Record<'en' | 'ru', VocabularyWord[] | null> = {
+  en: null,
+  ru: null
+};
 
-function loadVocabulary(): VocabularyWord[] {
-  if (cachedVocabulary) return cachedVocabulary;
+function loadVocabulary(lang: 'en' | 'ru'): VocabularyWord[] {
+  if (cachedVocabulary[lang]) return cachedVocabulary[lang]!;
   try {
-    cachedVocabulary = (vocabularyData as VocabularyWord[]).filter(
+    const rawData = lang === 'ru' ? vocabularyDataRu : vocabularyDataEn;
+    cachedVocabulary[lang] = (rawData as VocabularyWord[]).filter(
       (word) => word.id && word.word && word.translation
     );
   } catch {
-    cachedVocabulary = [];
+    cachedVocabulary[lang] = [];
   }
-  return cachedVocabulary;
+  return cachedVocabulary[lang]!;
 }
 
-export function getAllWords(): VocabularyWord[] {
-  return loadVocabulary();
+export function getAllWords(lang: 'en' | 'ru'): VocabularyWord[] {
+  return loadVocabulary(lang);
 }
 
-export function getWordById(id: string): VocabularyWord | undefined {
-  return loadVocabulary().find((w) => w.id === id);
+export function getWordById(id: string, lang: 'en' | 'ru'): VocabularyWord | undefined {
+  return loadVocabulary(lang).find((w) => w.id === id);
 }
 
-export function getWordsByCategory(category: Category): VocabularyWord[] {
-  return loadVocabulary().filter((w) => w.category === category);
+export function getWordsByCategory(category: Category, lang: 'en' | 'ru'): VocabularyWord[] {
+  return loadVocabulary(lang).filter((w) => w.category === category);
 }
 
-export function getWordsByLevel(level: DifficultyLevel): VocabularyWord[] {
-  return loadVocabulary().filter((w) => w.level === level);
+export function getWordsByLevel(level: DifficultyLevel, lang: 'en' | 'ru'): VocabularyWord[] {
+  return loadVocabulary(lang).filter((w) => w.level === level);
 }
 
 export function filterWords(
   categories: Category[],
-  levels: DifficultyLevel[]
+  levels: DifficultyLevel[],
+  lang: 'en' | 'ru'
 ): VocabularyWord[] {
-  const all = loadVocabulary();
+  const all = loadVocabulary(lang);
   if (all.length === 0) return [];
 
   // Exact match
@@ -62,10 +68,10 @@ export function filterWords(
   return all;
 }
 
-export function searchWords(query: string): VocabularyWord[] {
+export function searchWords(query: string, lang: 'en' | 'ru'): VocabularyWord[] {
   const q = query.toLowerCase().trim();
   if (!q) return [];
-  return loadVocabulary().filter(
+  return loadVocabulary(lang).filter(
     (w) =>
       w.word.toLowerCase().includes(q) ||
       w.translation.toLowerCase().includes(q) ||
@@ -79,9 +85,10 @@ export function getRandomWords(
   count: number,
   exclude: string[] = [],
   categories?: Category[],
-  levels?: DifficultyLevel[]
+  levels?: DifficultyLevel[],
+  lang: 'en' | 'ru' = 'en'
 ): VocabularyWord[] {
-  let pool = loadVocabulary().filter((w) => !exclude.includes(w.id));
+  let pool = loadVocabulary(lang).filter((w) => !exclude.includes(w.id));
   if (categories?.length) {
     pool = pool.filter((w) => categories.includes(w.category));
   }
@@ -97,10 +104,10 @@ export function getRandomWords(
   return shuffled.slice(0, count);
 }
 
-export function getWordCount(): number {
-  return loadVocabulary().length;
+export function getWordCount(lang: 'en' | 'ru'): number {
+  return loadVocabulary(lang).length;
 }
 
-export function getCategoryCount(category: Category): number {
-  return getWordsByCategory(category).length;
+export function getCategoryCount(category: Category, lang: 'en' | 'ru'): number {
+  return getWordsByCategory(category, lang).length;
 }

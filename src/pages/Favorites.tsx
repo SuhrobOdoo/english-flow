@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { getFavorites, removeFavorite } from '../services/storage';
+import { getFavorites, removeFavorite, getUserSettings } from '../services/storage';
 import { getWordById } from '../services/vocabulary';
 import type { VocabularyWord } from '../types/vocabulary';
 import { SearchBar } from '../components/SearchBar';
@@ -13,12 +13,14 @@ export const Favorites: React.FC = () => {
   const [favorites, setFavorites] = useState<FavoriteWordEntry[]>([]);
   const [filteredFavorites, setFilteredFavorites] = useState<FavoriteWordEntry[]>([]);
   const [loading, setLoading] = useState(true);
+  const [lang, setLang] = useState<'en'|'ru'>('en');
 
   const loadFavorites = useCallback(async () => {
-    const favEntries = await getFavorites();
+    const [favEntries, settings] = await Promise.all([getFavorites(), getUserSettings()]);
+    setLang(settings.targetLanguage);
     const words: FavoriteWordEntry[] = [];
     for (const fav of favEntries) {
-      const word = getWordById(fav.wordId);
+      const word = getWordById(fav.wordId, settings.targetLanguage);
       if (word) {
         words.push({ word, addedAt: fav.addedAt });
       }
@@ -56,7 +58,7 @@ export const Favorites: React.FC = () => {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(wordText);
-      utterance.lang = 'en-US';
+      utterance.lang = lang === 'ru' ? 'ru-RU' : 'en-US';
       utterance.rate = 0.85;
       window.speechSynthesis.speak(utterance);
     }

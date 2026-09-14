@@ -72,6 +72,13 @@ const STORAGE_KEYS = {
   STREAK: 'ef_streak',
 } as const;
 
+async function getStorageKey(baseKey: string): Promise<string> {
+  if (baseKey === STORAGE_KEYS.SETTINGS) return baseKey;
+  const settings = await getUserSettings();
+  const lang = settings.targetLanguage || 'en';
+  return `${baseKey}_${lang}`;
+}
+
 // ─── Settings ───
 
 export async function getUserSettings(): Promise<UserSettings> {
@@ -89,8 +96,9 @@ export async function saveUserSettings(settings: UserSettings): Promise<void> {
 
 export async function getAllWordProgress(): Promise<Record<string, WordProgress>> {
   const storage = getStorage();
-  const result = await storage.get({ [STORAGE_KEYS.WORD_PROGRESS]: {} });
-  return (result[STORAGE_KEYS.WORD_PROGRESS] as Record<string, WordProgress>) ?? {};
+  const key = await getStorageKey(STORAGE_KEYS.WORD_PROGRESS);
+  const result = await storage.get({ [key]: {} });
+  return (result[key] as Record<string, WordProgress>) ?? {};
 }
 
 export async function getWordProgress(wordId: string): Promise<WordProgress | null> {
@@ -102,15 +110,17 @@ export async function saveWordProgress(progress: WordProgress): Promise<void> {
   const all = await getAllWordProgress();
   all[progress.wordId] = progress;
   const storage = getStorage();
-  await storage.set({ [STORAGE_KEYS.WORD_PROGRESS]: all });
+  const key = await getStorageKey(STORAGE_KEYS.WORD_PROGRESS);
+  await storage.set({ [key]: all });
 }
 
 // ─── Favorites ───
 
 export async function getFavorites(): Promise<FavoriteEntry[]> {
   const storage = getStorage();
-  const result = await storage.get({ [STORAGE_KEYS.FAVORITES]: [] });
-  return (result[STORAGE_KEYS.FAVORITES] as FavoriteEntry[]) ?? [];
+  const key = await getStorageKey(STORAGE_KEYS.FAVORITES);
+  const result = await storage.get({ [key]: [] });
+  return (result[key] as FavoriteEntry[]) ?? [];
 }
 
 export async function saveFavorite(wordId: string): Promise<void> {
@@ -118,7 +128,8 @@ export async function saveFavorite(wordId: string): Promise<void> {
   if (!favorites.some((f) => f.wordId === wordId)) {
     favorites.push({ wordId, addedAt: new Date().toISOString() });
     const storage = getStorage();
-    await storage.set({ [STORAGE_KEYS.FAVORITES]: favorites });
+    const key = await getStorageKey(STORAGE_KEYS.FAVORITES);
+    await storage.set({ [key]: favorites });
   }
 }
 
@@ -126,7 +137,8 @@ export async function removeFavorite(wordId: string): Promise<void> {
   let favorites = await getFavorites();
   favorites = favorites.filter((f) => f.wordId !== wordId);
   const storage = getStorage();
-  await storage.set({ [STORAGE_KEYS.FAVORITES]: favorites });
+  const key = await getStorageKey(STORAGE_KEYS.FAVORITES);
+  await storage.set({ [key]: favorites });
 }
 
 export async function isFavorite(wordId: string): Promise<boolean> {
@@ -138,8 +150,9 @@ export async function isFavorite(wordId: string): Promise<boolean> {
 
 export async function getHistory(): Promise<HistoryEntry[]> {
   const storage = getStorage();
-  const result = await storage.get({ [STORAGE_KEYS.HISTORY]: [] });
-  return (result[STORAGE_KEYS.HISTORY] as HistoryEntry[]) ?? [];
+  const key = await getStorageKey(STORAGE_KEYS.HISTORY);
+  const result = await storage.get({ [key]: [] });
+  return (result[key] as HistoryEntry[]) ?? [];
 }
 
 export async function addToHistory(entry: HistoryEntry): Promise<void> {
@@ -153,7 +166,8 @@ export async function addToHistory(entry: HistoryEntry): Promise<void> {
     history = history.slice(0, 200);
   }
   const storage = getStorage();
-  await storage.set({ [STORAGE_KEYS.HISTORY]: history });
+  const key = await getStorageKey(STORAGE_KEYS.HISTORY);
+  await storage.set({ [key]: history });
 }
 
 // ─── Daily Activity ───
@@ -164,8 +178,9 @@ function getTodayDate(): string {
 
 export async function getDailyActivity(): Promise<DailyActivity> {
   const storage = getStorage();
-  const result = await storage.get({ [STORAGE_KEYS.DAILY_ACTIVITY]: DEFAULT_DAILY_ACTIVITY });
-  const activity = (result[STORAGE_KEYS.DAILY_ACTIVITY] as DailyActivity) ?? DEFAULT_DAILY_ACTIVITY;
+  const key = await getStorageKey(STORAGE_KEYS.DAILY_ACTIVITY);
+  const result = await storage.get({ [key]: DEFAULT_DAILY_ACTIVITY });
+  const activity = (result[key] as DailyActivity) ?? DEFAULT_DAILY_ACTIVITY;
 
   // Reset if it's a new day
   if (activity.date !== getTodayDate()) {
@@ -182,7 +197,8 @@ export async function getDailyActivity(): Promise<DailyActivity> {
 
 export async function saveDailyActivity(activity: DailyActivity): Promise<void> {
   const storage = getStorage();
-  await storage.set({ [STORAGE_KEYS.DAILY_ACTIVITY]: activity });
+  const key = await getStorageKey(STORAGE_KEYS.DAILY_ACTIVITY);
+  await storage.set({ [key]: activity });
 }
 
 export async function recordQuizAttempt(correct: boolean): Promise<void> {
@@ -207,13 +223,15 @@ export async function recordWordStudied(): Promise<void> {
 
 export async function getStreak(): Promise<StreakData> {
   const storage = getStorage();
-  const result = await storage.get({ [STORAGE_KEYS.STREAK]: DEFAULT_STREAK });
-  return (result[STORAGE_KEYS.STREAK] as StreakData) ?? DEFAULT_STREAK;
+  const key = await getStorageKey(STORAGE_KEYS.STREAK);
+  const result = await storage.get({ [key]: DEFAULT_STREAK });
+  return (result[key] as StreakData) ?? DEFAULT_STREAK;
 }
 
 export async function saveStreak(streak: StreakData): Promise<void> {
   const storage = getStorage();
-  await storage.set({ [STORAGE_KEYS.STREAK]: streak });
+  const key = await getStorageKey(STORAGE_KEYS.STREAK);
+  await storage.set({ [key]: streak });
 }
 
 export async function updateStreak(): Promise<void> {

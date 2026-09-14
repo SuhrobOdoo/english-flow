@@ -14,6 +14,7 @@ export interface UserSettings {
   autoRotate: boolean;
   rotateInterval: RotateInterval;
   theme: ThemeMode;
+  targetLanguage: 'en' | 'ru';
 }
 
 export interface WordProgress {
@@ -76,6 +77,7 @@ export const DEFAULT_SETTINGS: UserSettings = {
   autoRotate: false,
   rotateInterval: 30,
   theme: 'system',
+  targetLanguage: 'en',
 };
 
 export const DEFAULT_STREAK: StreakData = {

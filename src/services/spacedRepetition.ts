@@ -108,10 +108,11 @@ export async function recordAnswer(
 export async function selectNextWord(
   categories: Category[],
   levels: DifficultyLevel[],
-  currentWordId?: string
+  currentWordId?: string,
+  targetLanguage: 'en' | 'ru' = 'en'
 ): Promise<VocabularyWord | null> {
   const allProgress = await getAllWordProgress();
-  const pool = filterWords(categories, levels);
+  const pool = filterWords(categories, levels, targetLanguage);
 
   if (pool.length === 0) return null;
 
@@ -161,10 +162,11 @@ export async function selectNextWord(
 
 export async function getWordsNeedingReview(
   categories: Category[],
-  levels: DifficultyLevel[]
+  levels: DifficultyLevel[],
+  targetLanguage: 'en' | 'ru' = 'en'
 ): Promise<VocabularyWord[]> {
   const allProgress = await getAllWordProgress();
-  const pool = filterWords(categories, levels);
+  const pool = filterWords(categories, levels, targetLanguage);
   const now = new Date();
 
   return pool.filter((w) => {

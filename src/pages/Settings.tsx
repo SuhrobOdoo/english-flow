@@ -51,6 +51,28 @@ export const Settings: React.FC = () => {
         </div>
       )}
 
+      {/* Target Language */}
+      <div className="settings-section">
+        <h2 className="settings-section-title">Language to Learn</h2>
+        <p className="settings-description">Choose which language you want to learn</p>
+        <div className="settings-option-group">
+          <button
+            className={`settings-option ${settings.targetLanguage === 'en' ? 'active' : ''}`}
+            onClick={() => updateSettings({ targetLanguage: 'en' })}
+            type="button"
+          >
+            🇬🇧 English
+          </button>
+          <button
+            className={`settings-option ${settings.targetLanguage === 'ru' ? 'active' : ''}`}
+            onClick={() => updateSettings({ targetLanguage: 'ru' })}
+            type="button"
+          >
+            🇷🇺 Русский
+          </button>
+        </div>
+      </div>
+
       {/* Daily Words */}
       <div className="settings-section">
         <h2 className="settings-section-title">Daily Words</h2>

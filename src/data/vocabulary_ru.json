@@ -1,0 +1,402 @@
+[
+  {
+    "id": "ru_hello",
+    "word": "привет",
+    "ipa": "/prʲɪˈvʲet/",
+    "translation": "salom",
+    "partOfSpeech": "interjection",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Привет! Как дела?",
+      "Он сказал мне привет."
+    ],
+    "usage": "Used as a friendly greeting.",
+    "synonyms": ["здравствуй", "добрый день"],
+    "antonyms": ["пока", "до свидания"]
+  },
+  {
+    "id": "ru_thank_you",
+    "word": "спасибо",
+    "ipa": "/spɐˈsʲibə/",
+    "translation": "rahmat",
+    "partOfSpeech": "interjection",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Спасибо за помощь.",
+      "Большое спасибо!"
+    ],
+    "usage": "Used to express gratitude.",
+    "synonyms": ["благодарю"],
+    "antonyms": ["пожалуйста"]
+  },
+  {
+    "id": "ru_goodbye",
+    "word": "пока",
+    "ipa": "/pɐˈka/",
+    "translation": "xayr",
+    "partOfSpeech": "interjection",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Ну, пока, до завтра!",
+      "Она сказала всем пока и ушла."
+    ],
+    "usage": "Informal farewell.",
+    "synonyms": ["до свидания", "прощай"],
+    "antonyms": ["привет", "здравствуйте"]
+  },
+  {
+    "id": "ru_man",
+    "word": "человек",
+    "ipa": "/t͡ɕɪɫɐˈvʲek/",
+    "translation": "odam, inson",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Он очень хороший человек.",
+      "В комнате был один человек."
+    ],
+    "usage": "Refers to a human being.",
+    "synonyms": ["люди (plural)", "персона"],
+    "antonyms": ["животное"]
+  },
+  {
+    "id": "ru_time",
+    "word": "время",
+    "ipa": "/ˈvrʲemʲə/",
+    "translation": "vaqt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "У меня нет времени.",
+      "Какое сейчас время?"
+    ],
+    "usage": "The indefinite continued progress of existence and events.",
+    "synonyms": ["срок", "период"],
+    "antonyms": []
+  },
+  {
+    "id": "ru_work",
+    "word": "работа",
+    "ipa": "/rɐˈbotə/",
+    "translation": "ish",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "category": "business",
+    "examples": [
+      "У меня много работы сегодня.",
+      "Его работа очень сложная."
+    ],
+    "usage": "Activity involving mental or physical effort done in order to achieve a purpose or result.",
+    "synonyms": ["труд", "дело"],
+    "antonyms": ["отдых"]
+  },
+  {
+    "id": "ru_friend",
+    "word": "друг",
+    "ipa": "/druk/",
+    "translation": "do'st",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Он мой лучший друг.",
+      "Мы старые друзья."
+    ],
+    "usage": "A person whom one knows and with whom one has a bond of mutual affection.",
+    "synonyms": ["товарищ", "приятель"],
+    "antonyms": ["враг"]
+  },
+  {
+    "id": "ru_life",
+    "word": "жизнь",
+    "ipa": "/ʐɨzʲnʲ/",
+    "translation": "hayot",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Жизнь прекрасна.",
+      "Она посвятила свою жизнь науке."
+    ],
+    "usage": "The condition that distinguishes animals and plants from inorganic matter.",
+    "synonyms": ["существование"],
+    "antonyms": ["смерть"]
+  },
+  {
+    "id": "ru_word",
+    "word": "слово",
+    "ipa": "/ˈslovə/",
+    "translation": "so'z",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Я не знаю это слово.",
+      "Он всегда держит своё слово."
+    ],
+    "usage": "A single distinct meaningful element of speech or writing.",
+    "synonyms": ["термин"],
+    "antonyms": ["молчание"]
+  },
+  {
+    "id": "ru_computer",
+    "word": "компьютер",
+    "ipa": "/kɐmˈpʲjutər/",
+    "translation": "kompyuter",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "category": "it",
+    "examples": [
+      "Мой компьютер сломался.",
+      "Я купил новый компьютер."
+    ],
+    "usage": "An electronic device for storing and processing data.",
+    "synonyms": ["ПК", "машина"],
+    "antonyms": []
+  },
+  {
+    "id": "ru_program",
+    "word": "программа",
+    "ipa": "/prɐˈgramə/",
+    "translation": "dastur",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "category": "it",
+    "examples": [
+      "Эта программа работает хорошо.",
+      "Мне нужно написать новую программу."
+    ],
+    "usage": "A series of coded software instructions to control the operation of a computer.",
+    "synonyms": ["приложение", "софт"],
+    "antonyms": []
+  },
+  {
+    "id": "ru_company",
+    "word": "компания",
+    "ipa": "/kɐmˈpanʲɪjə/",
+    "translation": "kompaniya",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "category": "business",
+    "examples": [
+      "Наша компания продаёт программное обеспечение.",
+      "Он работает в крупной компании."
+    ],
+    "usage": "A commercial business.",
+    "synonyms": ["фирма", "корпорация"],
+    "antonyms": []
+  },
+  {
+    "id": "ru_money",
+    "word": "деньги",
+    "ipa": "/ˈdʲenʲɡʲɪ/",
+    "translation": "pul",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "category": "business",
+    "examples": [
+      "У меня нет денег.",
+      "Время - деньги."
+    ],
+    "usage": "A current medium of exchange in the form of coins and banknotes.",
+    "synonyms": ["средства", "валюта"],
+    "antonyms": []
+  },
+  {
+    "id": "ru_big",
+    "word": "большой",
+    "ipa": "/bɐlʲˈʂoj/",
+    "translation": "katta",
+    "partOfSpeech": "adjective",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Это большой дом.",
+      "У него большая семья."
+    ],
+    "usage": "Of considerable size, extent, or intensity.",
+    "synonyms": ["огромный", "крупный"],
+    "antonyms": ["маленький", "небольшой"]
+  },
+  {
+    "id": "ru_new",
+    "word": "новый",
+    "ipa": "/ˈnovɨj/",
+    "translation": "yangi",
+    "partOfSpeech": "adjective",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "У меня новый телефон.",
+      "Это новый проект."
+    ],
+    "usage": "Not existing before; made, introduced, or discovered recently.",
+    "synonyms": ["свежий", "современный"],
+    "antonyms": ["старый"]
+  },
+  {
+    "id": "ru_good",
+    "word": "хороший",
+    "ipa": "/xɐˈroʂɨj/",
+    "translation": "yaxshi",
+    "partOfSpeech": "adjective",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Он очень хороший специалист.",
+      "Погода сегодня хорошая."
+    ],
+    "usage": "To be desired or approved of.",
+    "synonyms": ["отличный", "прекрасный"],
+    "antonyms": ["плохой"]
+  },
+  {
+    "id": "ru_do",
+    "word": "делать",
+    "ipa": "/ˈdʲelətʲ/",
+    "translation": "qilmoq, bajarmoq",
+    "partOfSpeech": "verb",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Что ты делаешь?",
+      "Я люблю делать сюрпризы."
+    ],
+    "usage": "Perform an action, the precise nature of which is often unspecified.",
+    "synonyms": ["создавать", "выполнять"],
+    "antonyms": ["бездельничать"]
+  },
+  {
+    "id": "ru_speak",
+    "word": "говорить",
+    "ipa": "/ɡəvɐˈrʲitʲ/",
+    "translation": "gapirmoq",
+    "partOfSpeech": "verb",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Я немного говорю по-русски.",
+      "Он говорил слишком тихо."
+    ],
+    "usage": "Say something in order to convey information, an opinion, or a feeling.",
+    "synonyms": ["разговаривать", "болтать", "рассказывать"],
+    "antonyms": ["молчать"]
+  },
+  {
+    "id": "ru_read",
+    "word": "читать",
+    "ipa": "/t͡ɕɪˈtatʲ/",
+    "translation": "o'qimoq",
+    "partOfSpeech": "verb",
+    "level": "A1",
+    "category": "general",
+    "examples": [
+      "Я люблю читать книги.",
+      "Она читала новости в интернете."
+    ],
+    "usage": "Look at and comprehend the meaning of written or printed matter.",
+    "synonyms": ["просматривать", "изучать"],
+    "antonyms": ["писать"]
+  },
+  {
+    "id": "ru_system",
+    "word": "система",
+    "ipa": "/sʲɪˈsʲtʲemə/",
+    "translation": "tizim",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "category": "it",
+    "examples": [
+      "Операционная система обновилась.",
+      "Эта система очень сложная."
+    ],
+    "usage": "A set of things working together as parts of a mechanism or an interconnecting network.",
+    "synonyms": ["структура", "механизм"],
+    "antonyms": []
+  },
+  {
+    "id": "ru_data",
+    "word": "данные",
+    "ipa": "/ˈdanɨje/",
+    "translation": "ma'lumotlar",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "category": "it",
+    "examples": [
+      "Нам нужно обработать эти данные.",
+      "База данных повреждена."
+    ],
+    "usage": "Facts and statistics collected together for reference or analysis.",
+    "synonyms": ["информация", "сведения"],
+    "antonyms": []
+  },
+  {
+    "id": "ru_user",
+    "word": "пользователь",
+    "ipa": "/ˈpolʲzəvətʲɪlʲ/",
+    "translation": "foydalanuvchi",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "category": "it",
+    "examples": [
+      "Каждый пользователь имеет свой пароль.",
+      "Приложение удобно для пользователя."
+    ],
+    "usage": "A person who uses or operates something, especially a computer or other machine.",
+    "synonyms": ["юзер", "клиент"],
+    "antonyms": ["администратор"]
+  },
+  {
+    "id": "ru_order",
+    "word": "заказ",
+    "ipa": "/zɐˈkas/",
+    "translation": "buyurtma",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "category": "business",
+    "examples": [
+      "Ваш заказ готов.",
+      "Мы приняли новый заказ."
+    ],
+    "usage": "A request to make, supply, or deliver food or goods.",
+    "synonyms": ["поручение", "заявка"],
+    "antonyms": []
+  },
+  {
+    "id": "ru_project",
+    "word": "проект",
+    "ipa": "/prɐˈɛkt/",
+    "translation": "loyiha",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "category": "business",
+    "examples": [
+      "Это очень важный проект.",
+      "Проект будет завершён в срок."
+    ],
+    "usage": "An individual or collaborative enterprise that is carefully planned to achieve a particular aim.",
+    "synonyms": ["план", "замысел"],
+    "antonyms": []
+  },
+  {
+    "id": "ru_client",
+    "word": "клиент",
+    "ipa": "/klʲɪˈjent/",
+    "translation": "mijoz",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "category": "business",
+    "examples": [
+      "Клиент всегда прав.",
+      "Наш новый клиент из Москвы."
+    ],
+    "usage": "A person or organization using the services of a lawyer or other professional person or company.",
+    "synonyms": ["покупатель", "заказчик"],
+    "antonyms": ["продавец"]
+  }
+]

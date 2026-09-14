@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getHistory } from '../services/storage';
+import { getHistory, getUserSettings } from '../services/storage';
 import { getWordById } from '../services/vocabulary';
 import type { HistoryEntry } from '../types/userProgress';
 import type { VocabularyWord } from '../types/vocabulary';
@@ -13,13 +13,15 @@ export const History: React.FC = () => {
   const [history, setHistory] = useState<HistoryWordEntry[]>([]);
   const [filteredHistory, setFilteredHistory] = useState<HistoryWordEntry[]>([]);
   const [loading, setLoading] = useState(true);
+  const [lang, setLang] = useState<'en'|'ru'>('en');
 
   useEffect(() => {
     async function load() {
-      const entries = await getHistory();
+      const [entries, settings] = await Promise.all([getHistory(), getUserSettings()]);
+      setLang(settings.targetLanguage);
       const enriched: HistoryWordEntry[] = entries.map((entry) => ({
         ...entry,
-        fullWord: getWordById(entry.wordId),
+        fullWord: getWordById(entry.wordId, settings.targetLanguage),
       }));
       setHistory(enriched);
       setFilteredHistory(enriched);
@@ -47,7 +49,7 @@ export const History: React.FC = () => {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(wordText);
-      utterance.lang = 'en-US';
+      utterance.lang = lang === 'ru' ? 'ru-RU' : 'en-US';
       utterance.rate = 0.85;
       window.speechSynthesis.speak(utterance);
     }

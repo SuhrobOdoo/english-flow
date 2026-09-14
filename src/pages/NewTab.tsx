@@ -35,7 +35,7 @@ export const NewTab: React.FC = () => {
 
     setFadeIn(false);
     setTimeout(async () => {
-      const nextWord = await selectNextWord(s.categories, s.difficulties, currentWordId);
+      const nextWord = await selectNextWord(s.categories, s.difficulties, currentWordId, s.targetLanguage);
       if (nextWord) {
         setWord(nextWord);
         setQuiz(generateQuiz(nextWord, s.quizTypes as QuizType[]));
