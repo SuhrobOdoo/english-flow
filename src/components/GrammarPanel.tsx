@@ -1,95 +1,24 @@
 import React, { useState, useEffect } from 'react';
 
-interface GrammarRule {
-  id: string;
-  title: string;
-  description: string;
-  structure: string;
-  examples: string[];
-  keyPoint: string;
-}
-
-const grammarRules: GrammarRule[] = [
-  {
-    id: 'present_perfect',
-    title: 'Present Perfect',
-    description: 'We use Present Perfect for experiences, recent actions, and actions connected to the present.',
-    structure: 'have / has + V3 (past participle)',
-    examples: [
-      'I have postponed the meeting.',
-      'She has already finished the task.'
-    ],
-    keyPoint: 'Focus is on the result now, not when it happened.'
-  },
-  {
-    id: 'past_simple',
-    title: 'Past Simple',
-    description: 'Used for completed actions in the past at a specific time.',
-    structure: 'V2 (past tense) or did + V1',
-    examples: [
-      'I postponed the meeting yesterday.',
-      'Did she finish the task?'
-    ],
-    keyPoint: 'Always refers to a finished time period.'
-  },
-  {
-    id: 'present_continuous',
-    title: 'Present Continuous',
-    description: 'Used for actions happening right now, or temporary situations.',
-    structure: 'am / is / are + V-ing',
-    examples: [
-      'I am working on the project now.',
-      'They are studying English this month.'
-    ],
-    keyPoint: 'Highlights temporary or ongoing actions.'
-  },
-  {
-    id: 'gerund_vs_infinitive',
-    title: 'Gerund vs Infinitive',
-    description: 'Some verbs are followed by V-ing (gerund), others by to + V1 (infinitive).',
-    structure: 'Verb + V-ing / Verb + to + V1',
-    examples: [
-      'I enjoy reading. (enjoy + gerund)',
-      'I want to read. (want + infinitive)'
-    ],
-    keyPoint: 'Memorize the common verbs for each group.'
-  },
-  {
-    id: 'first_conditional',
-    title: 'First Conditional',
-    description: 'Used for real or possible situations in the future.',
-    structure: 'If + Present Simple, will + V1',
-    examples: [
-      'If it rains, we will stay home.',
-      'If you study hard, you will pass.'
-    ],
-    keyPoint: 'Condition must happen first for the result to occur.'
-  },
-  {
-    id: 'passive_voice',
-    title: 'Passive Voice',
-    description: 'Focuses on the action and the object, rather than who did it.',
-    structure: 'be + V3 (past participle)',
-    examples: [
-      'The meeting was postponed.',
-      'The house is being cleaned.'
-    ],
-    keyPoint: 'Use when the actor is unknown or unimportant.'
-  }
-];
+import type { GrammarRule } from '../data/grammar';
+import { englishGrammarRules, russianGrammarRules } from '../data/grammar';
 
 interface GrammarPanelProps {
-  triggerRefresh?: string; // Change to trigger a new random rule
+  triggerRefresh?: string;
+  targetLanguage: 'en' | 'ru';
 }
 
-export const GrammarPanel: React.FC<GrammarPanelProps> = ({ triggerRefresh }) => {
-  const [rule, setRule] = useState<GrammarRule>(grammarRules[0]);
+export const GrammarPanel: React.FC<GrammarPanelProps> = ({ triggerRefresh, targetLanguage }) => {
+  const rules = targetLanguage === 'ru' ? russianGrammarRules : englishGrammarRules;
+  const [rule, setRule] = useState<GrammarRule>(rules[0]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
-    // Pick a random rule
-    const randomIndex = Math.floor(Math.random() * grammarRules.length);
-    setRule(grammarRules[randomIndex]);
-  }, [triggerRefresh]);
+    // Pick a random rule from the correct language array
+    const currentRules = targetLanguage === 'ru' ? russianGrammarRules : englishGrammarRules;
+    const randomIndex = Math.floor(Math.random() * currentRules.length);
+    setRule(currentRules[randomIndex]);
+  }, [triggerRefresh, targetLanguage]);
 
   return (
     <div className="newtab-panel grammar-panel">
@@ -125,9 +54,54 @@ export const GrammarPanel: React.FC<GrammarPanelProps> = ({ triggerRefresh }) =>
         </div>
         
         <div style={{ textAlign: 'center', marginTop: '16px' }}>
-          <button className="btn btn-secondary btn-sm" style={{ width: '100%' }}>More →</button>
+          <button 
+            className="btn btn-secondary btn-sm" 
+            style={{ width: '100%' }}
+            onClick={() => setIsModalOpen(true)}
+          >
+            More →
+          </button>
         </div>
       </div>
+      
+      {/* Grammar Detail Modal Overlay */}
+      {isModalOpen && (
+        <div className="grammar-modal-overlay" onClick={() => setIsModalOpen(false)}>
+          <div className="grammar-modal-content" onClick={(e) => e.stopPropagation()}>
+            <div className="grammar-modal-header">
+              <h2>{rule.title}</h2>
+              <button className="btn-icon" onClick={() => setIsModalOpen(false)}>✕</button>
+            </div>
+            
+            <div className="grammar-modal-body">
+              <p className="grammar-modal-desc">{rule.description}</p>
+              
+              <div className="grammar-modal-section">
+                <h3>Structure</h3>
+                <div className="grammar-modal-structure">{rule.structure}</div>
+              </div>
+              
+              <div className="grammar-modal-section">
+                <h3>Detailed Explanation</h3>
+                <p>{rule.detailedExplanation}</p>
+              </div>
+
+              <div className="grammar-modal-section">
+                <h3>Examples</h3>
+                <ul className="grammar-modal-examples">
+                  {rule.examples.map((ex, i) => (
+                    <li key={i}>{ex}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="grammar-modal-key">
+                <strong>Key Point:</strong> {rule.keyPoint}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

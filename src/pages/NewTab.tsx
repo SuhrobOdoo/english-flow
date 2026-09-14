@@ -171,7 +171,10 @@ export const NewTab: React.FC = () => {
           onToggleFavorite={handleToggleFavorite}
         />
 
-        <GrammarPanel triggerRefresh={String(grammarTrigger)} />
+        <GrammarPanel 
+          triggerRefresh={String(grammarTrigger)} 
+          targetLanguage={(settings?.targetLanguage as 'en' | 'ru') || 'en'} 
+        />
 
         <Quiz
           question={quiz}
