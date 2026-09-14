@@ -1,0 +1,2620 @@
+[
+  {
+    "id": "postpone",
+    "word": "postpone",
+    "ipa": "/pəˈspoʊn/",
+    "translation": "kechiktirmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "We had to postpone the meeting until Monday.",
+      "They postponed the project because of technical issues.",
+      "The concert was postponed due to bad weather."
+    ],
+    "usage": "Use \"postpone\" when something planned is moved to a later time or date.",
+    "synonyms": ["delay", "defer", "put off"],
+    "antonyms": ["advance", "accelerate", "expedite"]
+  },
+  {
+    "id": "accurate",
+    "word": "accurate",
+    "ipa": "/ˈæk.jə.rət/",
+    "translation": "aniq, to'g'ri",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "The report contains accurate data.",
+      "Her description of the event was very accurate.",
+      "We need accurate measurements for this project."
+    ],
+    "usage": "Use \"accurate\" to describe something that is correct, precise, and free from errors.",
+    "synonyms": ["precise", "exact", "correct"],
+    "antonyms": ["inaccurate", "imprecise", "wrong"]
+  },
+  {
+    "id": "achieve",
+    "word": "achieve",
+    "ipa": "/əˈtʃiːv/",
+    "translation": "erishmoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "She achieved her goal of becoming a doctor.",
+      "The team achieved great results this quarter.",
+      "It takes hard work to achieve success."
+    ],
+    "usage": "Use \"achieve\" when someone successfully reaches a goal or accomplishes something significant.",
+    "synonyms": ["accomplish", "attain", "reach"],
+    "antonyms": ["fail", "lose", "miss"]
+  },
+  {
+    "id": "adequate",
+    "word": "adequate",
+    "ipa": "/ˈæd.ɪ.kwət/",
+    "translation": "yetarli",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "The hotel room was adequate but not luxurious.",
+      "We need adequate funding to continue the project.",
+      "Her preparation was adequate for the exam."
+    ],
+    "usage": "Use \"adequate\" to describe something that is sufficient or good enough for a particular purpose.",
+    "synonyms": ["sufficient", "enough", "satisfactory"],
+    "antonyms": ["inadequate", "insufficient", "lacking"]
+  },
+  {
+    "id": "apparently",
+    "word": "apparently",
+    "ipa": "/əˈpær.ənt.li/",
+    "translation": "ko'rinishidan, aftidan",
+    "partOfSpeech": "adverb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "Apparently, the meeting has been cancelled.",
+      "She was apparently unaware of the changes.",
+      "Apparently, he left the company last week."
+    ],
+    "usage": "Use \"apparently\" when reporting something you've heard or something that seems to be the case.",
+    "synonyms": ["seemingly", "evidently", "ostensibly"],
+    "antonyms": ["actually", "certainly", "definitely"]
+  },
+  {
+    "id": "beneficial",
+    "word": "beneficial",
+    "ipa": "/ˌben.ɪˈfɪʃ.əl/",
+    "translation": "foydali",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "Exercise is beneficial to your health.",
+      "The new policy will be beneficial for employees.",
+      "A good diet is beneficial for concentration."
+    ],
+    "usage": "Use \"beneficial\" to describe something that produces good results or has a positive effect.",
+    "synonyms": ["advantageous", "helpful", "favorable"],
+    "antonyms": ["harmful", "detrimental", "damaging"]
+  },
+  {
+    "id": "circumstances",
+    "word": "circumstances",
+    "ipa": "/ˈsɜː.kəm.stæn.sɪz/",
+    "translation": "sharoitlar, holatlar",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "Under the circumstances, we had no choice.",
+      "Financial circumstances forced them to move.",
+      "The circumstances of the accident are still unclear."
+    ],
+    "usage": "Use \"circumstances\" to talk about the conditions or facts that affect a situation.",
+    "synonyms": ["conditions", "situations", "factors"],
+    "antonyms": []
+  },
+  {
+    "id": "collaborate",
+    "word": "collaborate",
+    "ipa": "/kəˈlæb.ə.reɪt/",
+    "translation": "hamkorlik qilmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "The two companies decided to collaborate on the project.",
+      "We need to collaborate more effectively as a team.",
+      "Artists often collaborate to create something new."
+    ],
+    "usage": "Use \"collaborate\" when people work together to produce or create something.",
+    "synonyms": ["cooperate", "partner", "team up"],
+    "antonyms": ["compete", "oppose", "work alone"]
+  },
+  {
+    "id": "comprehensive",
+    "word": "comprehensive",
+    "ipa": "/ˌkɒm.prɪˈhen.sɪv/",
+    "translation": "to'liq, keng qamrovli",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "We need a comprehensive review of the system.",
+      "The guide provides comprehensive information about the city.",
+      "She gave a comprehensive explanation of the topic."
+    ],
+    "usage": "Use \"comprehensive\" to describe something that includes all or nearly all elements or aspects of something.",
+    "synonyms": ["thorough", "complete", "extensive"],
+    "antonyms": ["incomplete", "partial", "limited"]
+  },
+  {
+    "id": "consequence",
+    "word": "consequence",
+    "ipa": "/ˈkɒn.sɪ.kwəns/",
+    "translation": "oqibat, natija",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "One consequence of the decision was higher costs.",
+      "He didn't think about the consequences of his actions.",
+      "Climate change has serious consequences for everyone."
+    ],
+    "usage": "Use \"consequence\" to talk about a result or effect of an action or condition.",
+    "synonyms": ["result", "outcome", "effect"],
+    "antonyms": ["cause", "origin", "source"]
+  },
+  {
+    "id": "contribute",
+    "word": "contribute",
+    "ipa": "/kənˈtrɪb.juːt/",
+    "translation": "hissa qo'shmoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "Everyone should contribute to the discussion.",
+      "She contributed $500 to the charity.",
+      "Several factors contributed to the problem."
+    ],
+    "usage": "Use \"contribute\" when someone gives something (money, ideas, effort) to help achieve something.",
+    "synonyms": ["donate", "give", "provide"],
+    "antonyms": ["withhold", "take", "receive"]
+  },
+  {
+    "id": "crucial",
+    "word": "crucial",
+    "ipa": "/ˈkruː.ʃəl/",
+    "translation": "hal qiluvchi, juda muhim",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "This meeting is crucial for the success of the project.",
+      "It's crucial that we finish on time.",
+      "Education plays a crucial role in development."
+    ],
+    "usage": "Use \"crucial\" to emphasize that something is extremely important and could affect the outcome.",
+    "synonyms": ["critical", "vital", "essential"],
+    "antonyms": ["unimportant", "trivial", "insignificant"]
+  },
+  {
+    "id": "demonstrate",
+    "word": "demonstrate",
+    "ipa": "/ˈdem.ən.streɪt/",
+    "translation": "ko'rsatmoq, namoyish qilmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "The teacher demonstrated how to solve the problem.",
+      "The data demonstrates a clear trend.",
+      "He demonstrated his skills during the interview."
+    ],
+    "usage": "Use \"demonstrate\" to show or prove something clearly, or to show how something works.",
+    "synonyms": ["show", "illustrate", "display"],
+    "antonyms": ["conceal", "hide", "obscure"]
+  },
+  {
+    "id": "determine",
+    "word": "determine",
+    "ipa": "/dɪˈtɜː.mɪn/",
+    "translation": "aniqlash, belgilash",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "We need to determine the cause of the problem.",
+      "Your grade is determined by your exam results.",
+      "Several factors determine the price of oil."
+    ],
+    "usage": "Use \"determine\" when you want to find out something precisely or when something causes a particular result.",
+    "synonyms": ["establish", "ascertain", "decide"],
+    "antonyms": ["guess", "estimate", "ignore"]
+  },
+  {
+    "id": "emphasize",
+    "word": "emphasize",
+    "ipa": "/ˈem.fə.saɪz/",
+    "translation": "ta'kidlamoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "I want to emphasize the importance of teamwork.",
+      "The report emphasizes the need for change.",
+      "She emphasized that the deadline was strict."
+    ],
+    "usage": "Use \"emphasize\" when you want to give special attention or importance to something.",
+    "synonyms": ["stress", "highlight", "underline"],
+    "antonyms": ["understate", "minimize", "downplay"]
+  },
+  {
+    "id": "enhance",
+    "word": "enhance",
+    "ipa": "/ɪnˈhæns/",
+    "translation": "yaxshilamoq, kuchaytirmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "Technology can enhance the learning experience.",
+      "The new features enhance the product's value.",
+      "Good lighting enhances the atmosphere of a room."
+    ],
+    "usage": "Use \"enhance\" when improving the quality, value, or extent of something.",
+    "synonyms": ["improve", "boost", "augment"],
+    "antonyms": ["diminish", "reduce", "worsen"]
+  },
+  {
+    "id": "establish",
+    "word": "establish",
+    "ipa": "/ɪˈstæb.lɪʃ/",
+    "translation": "tashkil etmoq, o'rnatmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "The company was established in 1990.",
+      "We need to establish clear rules for the team.",
+      "Scientists are trying to establish the facts."
+    ],
+    "usage": "Use \"establish\" when creating or setting up something permanently, or when proving something.",
+    "synonyms": ["found", "create", "set up"],
+    "antonyms": ["abolish", "dismantle", "destroy"]
+  },
+  {
+    "id": "evaluate",
+    "word": "evaluate",
+    "ipa": "/ɪˈvæl.ju.eɪt/",
+    "translation": "baholamoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "We need to evaluate the results of the experiment.",
+      "The manager will evaluate your performance.",
+      "It's important to evaluate all the options before deciding."
+    ],
+    "usage": "Use \"evaluate\" when judging or assessing the value, importance, or quality of something.",
+    "synonyms": ["assess", "appraise", "judge"],
+    "antonyms": ["ignore", "overlook", "disregard"]
+  },
+  {
+    "id": "evidence",
+    "word": "evidence",
+    "ipa": "/ˈev.ɪ.dəns/",
+    "translation": "dalil, isbotlar",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "There is strong evidence to support this theory.",
+      "The police found new evidence at the scene.",
+      "Evidence suggests that exercise improves mood."
+    ],
+    "usage": "Use \"evidence\" to refer to facts or information that show whether something is true.",
+    "synonyms": ["proof", "indication", "testimony"],
+    "antonyms": ["disproof", "refutation"]
+  },
+  {
+    "id": "fundamental",
+    "word": "fundamental",
+    "ipa": "/ˌfʌn.dəˈmen.təl/",
+    "translation": "asosiy, tubdan",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "Reading is a fundamental skill for education.",
+      "There has been a fundamental change in policy.",
+      "These are fundamental principles of democracy."
+    ],
+    "usage": "Use \"fundamental\" to describe something that is basic, essential, or forms the foundation of something.",
+    "synonyms": ["basic", "essential", "core"],
+    "antonyms": ["secondary", "peripheral", "minor"]
+  },
+  {
+    "id": "hesitate",
+    "word": "hesitate",
+    "ipa": "/ˈhez.ɪ.teɪt/",
+    "translation": "ikkilanmoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "Don't hesitate to ask if you have questions.",
+      "She hesitated before answering the question.",
+      "He hesitated for a moment, then opened the door."
+    ],
+    "usage": "Use \"hesitate\" when someone pauses before doing or saying something, often due to uncertainty.",
+    "synonyms": ["pause", "waver", "falter"],
+    "antonyms": ["decide", "act", "proceed"]
+  },
+  {
+    "id": "implement",
+    "word": "implement",
+    "ipa": "/ˈɪm.plɪ.ment/",
+    "translation": "amalga oshirmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "We plan to implement the new system next month.",
+      "The government implemented new regulations.",
+      "It takes time to implement these changes."
+    ],
+    "usage": "Use \"implement\" when putting a plan, decision, or agreement into effect.",
+    "synonyms": ["execute", "carry out", "apply"],
+    "antonyms": ["abandon", "ignore", "neglect"]
+  },
+  {
+    "id": "indicate",
+    "word": "indicate",
+    "ipa": "/ˈɪn.dɪ.keɪt/",
+    "translation": "ko'rsatmoq, bildirmoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "The results indicate a need for further research.",
+      "The sign indicates the direction to the exit.",
+      "Her expression indicated that she was upset."
+    ],
+    "usage": "Use \"indicate\" when pointing out, showing, or suggesting something.",
+    "synonyms": ["show", "suggest", "signal"],
+    "antonyms": ["conceal", "hide", "mislead"]
+  },
+  {
+    "id": "investigate",
+    "word": "investigate",
+    "ipa": "/ɪnˈves.tɪ.ɡeɪt/",
+    "translation": "tekshirmoq, tadqiq qilmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "The police are investigating the crime.",
+      "Scientists are investigating the effects of the drug.",
+      "We need to investigate the root cause."
+    ],
+    "usage": "Use \"investigate\" when examining or studying something carefully to discover the truth.",
+    "synonyms": ["examine", "explore", "probe"],
+    "antonyms": ["ignore", "overlook", "neglect"]
+  },
+  {
+    "id": "maintain",
+    "word": "maintain",
+    "ipa": "/meɪnˈteɪn/",
+    "translation": "saqlamoq, qo'llab-quvvatlamoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "It's important to maintain a healthy diet.",
+      "The company maintains high standards.",
+      "We need to maintain our equipment regularly."
+    ],
+    "usage": "Use \"maintain\" when keeping something in a particular state or at a particular level.",
+    "synonyms": ["preserve", "sustain", "keep"],
+    "antonyms": ["neglect", "abandon", "discontinue"]
+  },
+  {
+    "id": "negotiate",
+    "word": "negotiate",
+    "ipa": "/nɪˈɡoʊ.ʃi.eɪt/",
+    "translation": "muzokara olib bormoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "We need to negotiate the terms of the contract.",
+      "She negotiated a higher salary.",
+      "Both sides are willing to negotiate."
+    ],
+    "usage": "Use \"negotiate\" when discussing something to reach an agreement, especially in business.",
+    "synonyms": ["discuss", "bargain", "mediate"],
+    "antonyms": ["demand", "dictate", "impose"]
+  },
+  {
+    "id": "obtain",
+    "word": "obtain",
+    "ipa": "/əbˈteɪn/",
+    "translation": "olmoq, qo'lga kiritmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "You need to obtain permission before proceeding.",
+      "She obtained her degree from Harvard.",
+      "It was difficult to obtain the necessary documents."
+    ],
+    "usage": "Use \"obtain\" as a formal way to say 'get' or 'acquire', especially in official contexts.",
+    "synonyms": ["acquire", "get", "secure"],
+    "antonyms": ["lose", "give", "surrender"]
+  },
+  {
+    "id": "participate",
+    "word": "participate",
+    "ipa": "/pɑːˈtɪs.ɪ.peɪt/",
+    "translation": "ishtirok etmoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "Everyone is encouraged to participate in the discussion.",
+      "She participated in the marathon.",
+      "Students should participate actively in class."
+    ],
+    "usage": "Use \"participate\" when taking part in an activity or event.",
+    "synonyms": ["take part", "engage", "join"],
+    "antonyms": ["abstain", "withdraw", "avoid"]
+  },
+  {
+    "id": "persuade",
+    "word": "persuade",
+    "ipa": "/pəˈsweɪd/",
+    "translation": "ishontirmoq, ko'ndirmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "He persuaded me to change my mind.",
+      "She tried to persuade her boss to approve the plan.",
+      "It's hard to persuade him once he's made a decision."
+    ],
+    "usage": "Use \"persuade\" when convincing someone to do or believe something through reasoning.",
+    "synonyms": ["convince", "influence", "sway"],
+    "antonyms": ["discourage", "dissuade", "deter"]
+  },
+  {
+    "id": "precise",
+    "word": "precise",
+    "ipa": "/prɪˈsaɪs/",
+    "translation": "aniq, to'g'ri",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "Please give me the precise time of the meeting.",
+      "The instructions need to be more precise.",
+      "She is always precise in her work."
+    ],
+    "usage": "Use \"precise\" to describe something that is exact and accurate in every detail.",
+    "synonyms": ["exact", "accurate", "specific"],
+    "antonyms": ["vague", "imprecise", "approximate"]
+  },
+  {
+    "id": "relevant",
+    "word": "relevant",
+    "ipa": "/ˈrel.ə.vənt/",
+    "translation": "tegishli, aloqador",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "Please include only relevant information.",
+      "This experience is relevant to the job.",
+      "The question is not relevant to our discussion."
+    ],
+    "usage": "Use \"relevant\" to describe something that is connected to or important for the matter at hand.",
+    "synonyms": ["pertinent", "applicable", "related"],
+    "antonyms": ["irrelevant", "unrelated", "inapplicable"]
+  },
+  {
+    "id": "significant",
+    "word": "significant",
+    "ipa": "/sɪɡˈnɪf.ɪ.kənt/",
+    "translation": "muhim, sezilarli",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "There has been a significant improvement in sales.",
+      "This is a significant achievement for the team.",
+      "The difference between the two options is not significant."
+    ],
+    "usage": "Use \"significant\" to describe something that is important, notable, or large enough to have an effect.",
+    "synonyms": ["important", "notable", "considerable"],
+    "antonyms": ["insignificant", "minor", "trivial"]
+  },
+  {
+    "id": "sufficient",
+    "word": "sufficient",
+    "ipa": "/səˈfɪʃ.ənt/",
+    "translation": "yetarli",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "Do we have sufficient resources to complete the project?",
+      "The evidence was not sufficient to convict him.",
+      "A simple explanation should be sufficient."
+    ],
+    "usage": "Use \"sufficient\" to describe something that is enough for a particular purpose.",
+    "synonyms": ["enough", "adequate", "ample"],
+    "antonyms": ["insufficient", "inadequate", "lacking"]
+  },
+  {
+    "id": "tendency",
+    "word": "tendency",
+    "ipa": "/ˈten.dən.si/",
+    "translation": "moyillik",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "He has a tendency to arrive late.",
+      "There is a tendency for prices to rise in summer.",
+      "She has a tendency to overthink things."
+    ],
+    "usage": "Use \"tendency\" when describing a pattern of behavior or a likely direction of change.",
+    "synonyms": ["inclination", "trend", "propensity"],
+    "antonyms": ["aversion", "disinclination"]
+  },
+  {
+    "id": "thorough",
+    "word": "thorough",
+    "ipa": "/ˈθʌr.oʊ/",
+    "translation": "puxta, chuqur",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "The police conducted a thorough investigation.",
+      "She did a thorough review of the document.",
+      "He is thorough in everything he does."
+    ],
+    "usage": "Use \"thorough\" to describe something done completely and carefully, paying attention to every detail.",
+    "synonyms": ["comprehensive", "exhaustive", "detailed"],
+    "antonyms": ["superficial", "careless", "incomplete"]
+  },
+  {
+    "id": "ultimately",
+    "word": "ultimately",
+    "ipa": "/ˈʌl.tɪ.mət.li/",
+    "translation": "oxir-oqibatda",
+    "partOfSpeech": "adverb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "Ultimately, the decision is yours.",
+      "The project ultimately succeeded despite the challenges.",
+      "Ultimately, we are responsible for our own actions."
+    ],
+    "usage": "Use \"ultimately\" to talk about the final result or the most basic reason for something.",
+    "synonyms": ["finally", "eventually", "in the end"],
+    "antonyms": ["initially", "originally"]
+  },
+  {
+    "id": "vary",
+    "word": "vary",
+    "ipa": "/ˈver.i/",
+    "translation": "farq qilmoq, o'zgarmoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "Prices vary from store to store.",
+      "The quality of the food varies a lot.",
+      "Opinions vary on this topic."
+    ],
+    "usage": "Use \"vary\" when things differ from one another or change in different situations.",
+    "synonyms": ["differ", "change", "fluctuate"],
+    "antonyms": ["remain", "stay", "stabilize"]
+  },
+  {
+    "id": "widespread",
+    "word": "widespread",
+    "ipa": "/ˈwaɪd.spred/",
+    "translation": "keng tarqalgan",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "There is widespread concern about climate change.",
+      "The disease became widespread in a few weeks.",
+      "The use of smartphones is now widespread."
+    ],
+    "usage": "Use \"widespread\" to describe something that exists or happens in many places or among many people.",
+    "synonyms": ["prevalent", "extensive", "common"],
+    "antonyms": ["rare", "limited", "uncommon"]
+  },
+  {
+    "id": "revenue",
+    "word": "revenue",
+    "ipa": "/ˈrev.ən.juː/",
+    "translation": "daromad, tushum",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "The company's revenue increased by 15% this year.",
+      "Advertising is a major source of revenue.",
+      "We need to find new ways to generate revenue."
+    ],
+    "usage": "Use \"revenue\" to refer to the total income a business generates from its activities.",
+    "synonyms": ["income", "earnings", "turnover"],
+    "antonyms": ["expense", "loss", "cost"]
+  },
+  {
+    "id": "stakeholder",
+    "word": "stakeholder",
+    "ipa": "/ˈsteɪkˌhoʊl.dər/",
+    "translation": "manfaatdor tomon",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "We need to inform all stakeholders about the changes.",
+      "Key stakeholders must approve the budget.",
+      "The project involves multiple stakeholders."
+    ],
+    "usage": "Use \"stakeholder\" to refer to a person or group with an interest or concern in something, especially a business.",
+    "synonyms": ["interested party", "shareholder", "participant"],
+    "antonyms": []
+  },
+  {
+    "id": "budget",
+    "word": "budget",
+    "ipa": "/ˈbʌdʒ.ɪt/",
+    "translation": "byudjet, moliyaviy reja",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "business",
+    "examples": [
+      "We need to stay within our budget.",
+      "The project exceeded its budget by 20%.",
+      "She prepared the annual budget for the department."
+    ],
+    "usage": "Use \"budget\" to refer to a plan showing how much money is available and how it will be spent.",
+    "synonyms": ["financial plan", "allocation", "funds"],
+    "antonyms": []
+  },
+  {
+    "id": "contract",
+    "word": "contract",
+    "ipa": "/ˈkɒn.trækt/",
+    "translation": "shartnoma",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "business",
+    "examples": [
+      "Both parties signed the contract.",
+      "The contract expires at the end of the year.",
+      "We need to review the terms of the contract."
+    ],
+    "usage": "Use \"contract\" to refer to a written legal agreement between two or more parties.",
+    "synonyms": ["agreement", "deal", "pact"],
+    "antonyms": []
+  },
+  {
+    "id": "deadline",
+    "word": "deadline",
+    "ipa": "/ˈded.laɪn/",
+    "translation": "oxirgi muddat",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "business",
+    "examples": [
+      "The deadline for the report is Friday.",
+      "We missed the deadline by two days.",
+      "Can we extend the deadline?"
+    ],
+    "usage": "Use \"deadline\" to refer to a date or time by which something must be completed.",
+    "synonyms": ["due date", "time limit", "cutoff"],
+    "antonyms": []
+  },
+  {
+    "id": "delegate",
+    "word": "delegate",
+    "ipa": "/ˈdel.ɪ.ɡeɪt/",
+    "translation": "vakolat bermoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "A good manager knows how to delegate tasks.",
+      "She delegated the responsibility to her assistant.",
+      "You need to learn to delegate more effectively."
+    ],
+    "usage": "Use \"delegate\" when giving tasks or responsibilities to someone else.",
+    "synonyms": ["assign", "entrust", "hand over"],
+    "antonyms": ["retain", "keep", "withhold"]
+  },
+  {
+    "id": "efficiency",
+    "word": "efficiency",
+    "ipa": "/ɪˈfɪʃ.ən.si/",
+    "translation": "samaradorlik",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "We need to improve the efficiency of our operations.",
+      "The new system increased efficiency by 30%.",
+      "Energy efficiency is important for reducing costs."
+    ],
+    "usage": "Use \"efficiency\" to describe how well something works without wasting time, money, or energy.",
+    "synonyms": ["productivity", "effectiveness", "performance"],
+    "antonyms": ["inefficiency", "waste"]
+  },
+  {
+    "id": "forecast",
+    "word": "forecast",
+    "ipa": "/ˈfɔːr.kæst/",
+    "translation": "bashorat qilmoq, prognoz",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "The sales forecast for Q4 looks promising.",
+      "According to the weather forecast, it will rain tomorrow.",
+      "The economic forecast predicts moderate growth."
+    ],
+    "usage": "Use \"forecast\" to refer to a prediction or estimate of future events, especially in business or weather.",
+    "synonyms": ["prediction", "projection", "estimate"],
+    "antonyms": []
+  },
+  {
+    "id": "inventory",
+    "word": "inventory",
+    "ipa": "/ˈɪn.vən.tɔːr.i/",
+    "translation": "inventar, tovar zahirasi",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "We need to check our inventory levels.",
+      "The store has a large inventory of electronics.",
+      "Inventory management is crucial for retail businesses."
+    ],
+    "usage": "Use \"inventory\" to refer to the complete list of goods or materials held in stock by a business.",
+    "synonyms": ["stock", "supply", "merchandise"],
+    "antonyms": []
+  },
+  {
+    "id": "leadership",
+    "word": "leadership",
+    "ipa": "/ˈliː.dər.ʃɪp/",
+    "translation": "yetakchilik, rahbarlik",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "Strong leadership is essential for success.",
+      "She showed great leadership during the crisis.",
+      "The company is looking for someone with leadership skills."
+    ],
+    "usage": "Use \"leadership\" to describe the action or ability of leading a group of people or an organization.",
+    "synonyms": ["management", "guidance", "direction"],
+    "antonyms": ["followership", "subordination"]
+  },
+  {
+    "id": "margin",
+    "word": "margin",
+    "ipa": "/ˈmɑːr.dʒɪn/",
+    "translation": "foyda darajasi, chet",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "The profit margin on this product is 15%.",
+      "We need to improve our margins.",
+      "There is a narrow margin for error."
+    ],
+    "usage": "Use \"margin\" in business to refer to the difference between the cost of producing something and the price it's sold for.",
+    "synonyms": ["profit", "markup", "edge"],
+    "antonyms": ["loss"]
+  },
+  {
+    "id": "merger",
+    "word": "merger",
+    "ipa": "/ˈmɜːr.dʒər/",
+    "translation": "birlashish, qo'shilish",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "business",
+    "examples": [
+      "The merger of the two companies created a market leader.",
+      "The merger was approved by both boards of directors.",
+      "There are rumors of a merger between the two banks."
+    ],
+    "usage": "Use \"merger\" to describe the joining of two companies into one.",
+    "synonyms": ["consolidation", "union", "amalgamation"],
+    "antonyms": ["split", "division", "separation"]
+  },
+  {
+    "id": "outsource",
+    "word": "outsource",
+    "ipa": "/ˌaʊtˈsɔːrs/",
+    "translation": "tashqi pudratga bermoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "Many companies outsource their IT support.",
+      "We decided to outsource the design work.",
+      "Outsourcing can reduce operational costs."
+    ],
+    "usage": "Use \"outsource\" when a company arranges for external organizations to do work that was previously done in-house.",
+    "synonyms": ["contract out", "subcontract", "farm out"],
+    "antonyms": ["insource", "internalize"]
+  },
+  {
+    "id": "profit",
+    "word": "profit",
+    "ipa": "/ˈprɒf.ɪt/",
+    "translation": "foyda, daromad",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "business",
+    "examples": [
+      "The company made a profit of $2 million last year.",
+      "We need to increase our profit margins.",
+      "Net profit is calculated after deducting all expenses."
+    ],
+    "usage": "Use \"profit\" to refer to the financial gain from a business transaction after expenses are deducted.",
+    "synonyms": ["gain", "earnings", "return"],
+    "antonyms": ["loss", "deficit"]
+  },
+  {
+    "id": "strategy",
+    "word": "strategy",
+    "ipa": "/ˈstræt.ə.dʒi/",
+    "translation": "strategiya, reja",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "We need a new marketing strategy.",
+      "The company's strategy focuses on innovation.",
+      "What is your strategy for entering the Asian market?"
+    ],
+    "usage": "Use \"strategy\" to refer to a long-term plan designed to achieve a particular goal.",
+    "synonyms": ["plan", "approach", "tactic"],
+    "antonyms": []
+  },
+  {
+    "id": "target",
+    "word": "target",
+    "ipa": "/ˈtɑːr.ɡɪt/",
+    "translation": "maqsad, nishon",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "business",
+    "examples": [
+      "We met our sales target for this quarter.",
+      "The target audience for this product is young professionals.",
+      "She set herself a target of reading 50 books a year."
+    ],
+    "usage": "Use \"target\" to refer to a goal or objective that someone is trying to achieve.",
+    "synonyms": ["goal", "objective", "aim"],
+    "antonyms": []
+  },
+  {
+    "id": "algorithm",
+    "word": "algorithm",
+    "ipa": "/ˈæl.ɡə.rɪð.əm/",
+    "translation": "algoritm",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "The search algorithm processes millions of queries per second.",
+      "We need to optimize the sorting algorithm.",
+      "Machine learning algorithms can identify patterns in data."
+    ],
+    "usage": "Use \"algorithm\" to refer to a set of rules or steps for solving a problem or completing a task, especially in computing.",
+    "synonyms": ["procedure", "method", "formula"],
+    "antonyms": []
+  },
+  {
+    "id": "bandwidth",
+    "word": "bandwidth",
+    "ipa": "/ˈbænd.wɪdθ/",
+    "translation": "tarmoq o'tkazuvchanligi",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "The server doesn't have enough bandwidth for all users.",
+      "We need to increase our bandwidth capacity.",
+      "High bandwidth is essential for video streaming."
+    ],
+    "usage": "Use \"bandwidth\" to describe the maximum rate of data transfer across a network, or informally, a person's capacity to handle tasks.",
+    "synonyms": ["capacity", "throughput"],
+    "antonyms": []
+  },
+  {
+    "id": "compile",
+    "word": "compile",
+    "ipa": "/kəmˈpaɪl/",
+    "translation": "kompilyatsiya qilmoq, to'plamoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "You need to compile the code before running it.",
+      "The program failed to compile due to syntax errors.",
+      "Compiled languages are generally faster than interpreted ones."
+    ],
+    "usage": "Use \"compile\" in programming to refer to converting source code into executable code.",
+    "synonyms": ["build", "translate", "assemble"],
+    "antonyms": ["interpret", "decompile"]
+  },
+  {
+    "id": "database",
+    "word": "database",
+    "ipa": "/ˈdeɪ.tə.beɪs/",
+    "translation": "ma'lumotlar bazasi",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "it",
+    "examples": [
+      "All customer data is stored in the database.",
+      "We need to optimize the database queries.",
+      "The database contains over 10 million records."
+    ],
+    "usage": "Use \"database\" to refer to a structured collection of data stored electronically.",
+    "synonyms": ["data store", "repository"],
+    "antonyms": []
+  },
+  {
+    "id": "debug",
+    "word": "debug",
+    "ipa": "/diːˈbʌɡ/",
+    "translation": "xatolarni topmoq va tuzatmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "I spent hours debugging the application.",
+      "Use the debugger to step through the code.",
+      "Debugging is an essential skill for developers."
+    ],
+    "usage": "Use \"debug\" to refer to the process of finding and fixing errors in computer programs.",
+    "synonyms": ["troubleshoot", "fix", "diagnose"],
+    "antonyms": []
+  },
+  {
+    "id": "deploy",
+    "word": "deploy",
+    "ipa": "/dɪˈplɔɪ/",
+    "translation": "joylashtirmoq, ishga tushirmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "We will deploy the new version on Friday.",
+      "The application was deployed to production servers.",
+      "Automated deployment saves time and reduces errors."
+    ],
+    "usage": "Use \"deploy\" in IT to refer to making software available for use, especially moving it to a production environment.",
+    "synonyms": ["release", "launch", "roll out"],
+    "antonyms": ["rollback", "withdraw"]
+  },
+  {
+    "id": "encrypt",
+    "word": "encrypt",
+    "ipa": "/ɪnˈkrɪpt/",
+    "translation": "shifrlash",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "All passwords should be encrypted.",
+      "The data is encrypted before being sent over the network.",
+      "We use AES-256 encryption to protect sensitive information."
+    ],
+    "usage": "Use \"encrypt\" to refer to converting data into a coded form to prevent unauthorized access.",
+    "synonyms": ["encode", "cipher", "scramble"],
+    "antonyms": ["decrypt", "decode"]
+  },
+  {
+    "id": "framework",
+    "word": "framework",
+    "ipa": "/ˈfreɪm.wɜːrk/",
+    "translation": "freymvork, tuzilma",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "React is a popular JavaScript framework.",
+      "We chose Django as our backend framework.",
+      "The framework provides a structure for building applications."
+    ],
+    "usage": "Use \"framework\" in IT to refer to a platform or set of tools that provides a foundation for developing software.",
+    "synonyms": ["platform", "library", "toolkit"],
+    "antonyms": []
+  },
+  {
+    "id": "integrate",
+    "word": "integrate",
+    "ipa": "/ˈɪn.tɪ.ɡreɪt/",
+    "translation": "integratsiya qilmoq, birlashtirmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "We need to integrate the payment gateway.",
+      "The new module integrates seamlessly with existing systems.",
+      "Continuous integration helps catch bugs early."
+    ],
+    "usage": "Use \"integrate\" when combining different parts or systems so they work together.",
+    "synonyms": ["combine", "merge", "incorporate"],
+    "antonyms": ["separate", "disconnect", "isolate"]
+  },
+  {
+    "id": "iterate",
+    "word": "iterate",
+    "ipa": "/ˈɪt.ə.reɪt/",
+    "translation": "takrorlash, iteratsiya qilmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "We iterate on the design based on user feedback.",
+      "The loop iterates through all elements in the array.",
+      "Agile teams iterate quickly to improve the product."
+    ],
+    "usage": "Use \"iterate\" when repeating a process to make improvements, or in programming to loop through items.",
+    "synonyms": ["repeat", "cycle", "loop"],
+    "antonyms": []
+  },
+  {
+    "id": "latency",
+    "word": "latency",
+    "ipa": "/ˈleɪ.tən.si/",
+    "translation": "kechikish vaqti",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "it",
+    "examples": [
+      "Low latency is critical for online gaming.",
+      "The API response latency is under 100ms.",
+      "Network latency affects the user experience."
+    ],
+    "usage": "Use \"latency\" to refer to the delay between a request and a response in computing or networking.",
+    "synonyms": ["delay", "lag", "response time"],
+    "antonyms": []
+  },
+  {
+    "id": "optimize",
+    "word": "optimize",
+    "ipa": "/ˈɒp.tɪ.maɪz/",
+    "translation": "optimallashtirmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "We need to optimize the database queries.",
+      "The team optimized the code for better performance.",
+      "Search engine optimization helps improve website visibility."
+    ],
+    "usage": "Use \"optimize\" when making something as effective or functional as possible.",
+    "synonyms": ["improve", "enhance", "refine"],
+    "antonyms": ["degrade", "worsen"]
+  },
+  {
+    "id": "repository",
+    "word": "repository",
+    "ipa": "/rɪˈpɒz.ɪ.tər.i/",
+    "translation": "repozitoriy, omborxona",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "Push your code to the Git repository.",
+      "The repository contains all project files.",
+      "We use a private repository for our source code."
+    ],
+    "usage": "Use \"repository\" in IT to refer to a central location where code, data, or files are stored and managed.",
+    "synonyms": ["repo", "storage", "archive"],
+    "antonyms": []
+  },
+  {
+    "id": "scalable",
+    "word": "scalable",
+    "ipa": "/ˈskeɪ.lə.bəl/",
+    "translation": "kengaytiriladigan",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "We need a scalable solution that can handle growth.",
+      "Cloud services provide scalable infrastructure.",
+      "The architecture is designed to be scalable."
+    ],
+    "usage": "Use \"scalable\" to describe a system or process that can handle increased demand by growing proportionally.",
+    "synonyms": ["expandable", "flexible", "extensible"],
+    "antonyms": ["rigid", "inflexible", "fixed"]
+  },
+  {
+    "id": "vulnerability",
+    "word": "vulnerability",
+    "ipa": "/ˌvʌl.nər.əˈbɪl.ə.ti/",
+    "translation": "zaiflik, himoyasizlik",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "it",
+    "examples": [
+      "The security team found a vulnerability in the system.",
+      "Regular updates help fix known vulnerabilities.",
+      "SQL injection is a common web vulnerability."
+    ],
+    "usage": "Use \"vulnerability\" in IT to refer to a weakness in a system that could be exploited.",
+    "synonyms": ["weakness", "flaw", "security hole"],
+    "antonyms": ["strength", "security"]
+  },
+  {
+    "id": "authentication",
+    "word": "authentication",
+    "ipa": "/ɔːˌθen.tɪˈkeɪ.ʃən/",
+    "translation": "autentifikatsiya, tekshirish",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "Two-factor authentication adds an extra layer of security.",
+      "The authentication process verifies user identity.",
+      "We implemented OAuth for authentication."
+    ],
+    "usage": "Use \"authentication\" to refer to the process of verifying who a user is.",
+    "synonyms": ["verification", "validation", "identification"],
+    "antonyms": []
+  },
+  {
+    "id": "refactor",
+    "word": "refactor",
+    "ipa": "/riːˈfæk.tər/",
+    "translation": "kodni qayta tuzmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "We need to refactor this module for better readability.",
+      "Refactoring improved the code quality significantly.",
+      "Don't add new features while refactoring."
+    ],
+    "usage": "Use \"refactor\" to describe restructuring existing code without changing its external behavior.",
+    "synonyms": ["restructure", "reorganize", "rewrite"],
+    "antonyms": []
+  },
+  {
+    "id": "approval",
+    "word": "approval",
+    "ipa": "/əˈpruː.vəl/",
+    "translation": "tasdiqlash, ruxsat",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "odoo",
+    "examples": [
+      "The purchase order is pending approval.",
+      "We need manager approval before proceeding.",
+      "The approval process takes about 3 business days."
+    ],
+    "usage": "Use \"approval\" to refer to official permission or agreement to proceed with something.",
+    "synonyms": ["authorization", "consent", "endorsement"],
+    "antonyms": ["rejection", "denial", "refusal"]
+  },
+  {
+    "id": "procurement",
+    "word": "procurement",
+    "ipa": "/prəˈkjʊr.mənt/",
+    "translation": "xarid qilish, ta'minlash",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "odoo",
+    "examples": [
+      "The procurement department handles all purchases.",
+      "We need to streamline our procurement process.",
+      "Procurement rules ensure fair vendor selection."
+    ],
+    "usage": "Use \"procurement\" to refer to the process of obtaining goods or services, especially for business purposes.",
+    "synonyms": ["purchasing", "acquisition", "buying"],
+    "antonyms": ["selling", "disposal"]
+  },
+  {
+    "id": "quotation",
+    "word": "quotation",
+    "ipa": "/kwoʊˈteɪ.ʃən/",
+    "translation": "taklif narxi, kotirovka",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "odoo",
+    "examples": [
+      "Please send us a quotation for the new servers.",
+      "The quotation is valid for 30 days.",
+      "We received three quotations from different vendors."
+    ],
+    "usage": "Use \"quotation\" in business to refer to a formal statement of the price a company will charge for goods or services.",
+    "synonyms": ["quote", "estimate", "bid"],
+    "antonyms": []
+  },
+  {
+    "id": "vendor",
+    "word": "vendor",
+    "ipa": "/ˈven.dər/",
+    "translation": "yetkazib beruvchi, sotuvchi",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "odoo",
+    "examples": [
+      "We need to evaluate new vendors for this product.",
+      "The vendor delivered the goods on time.",
+      "Vendor management is important for supply chain efficiency."
+    ],
+    "usage": "Use \"vendor\" to refer to a person or company that sells goods or services.",
+    "synonyms": ["supplier", "seller", "provider"],
+    "antonyms": ["buyer", "customer", "client"]
+  },
+  {
+    "id": "invoice",
+    "word": "invoice",
+    "ipa": "/ˈɪn.vɔɪs/",
+    "translation": "hisob-faktura",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "odoo",
+    "examples": [
+      "Please send the invoice by email.",
+      "The invoice is due within 30 days.",
+      "We need to create an invoice for this order."
+    ],
+    "usage": "Use \"invoice\" to refer to a document listing goods or services provided and the amount owed.",
+    "synonyms": ["bill", "statement", "receipt"],
+    "antonyms": []
+  },
+  {
+    "id": "reconciliation",
+    "word": "reconciliation",
+    "ipa": "/ˌrek.ən.sɪl.iˈeɪ.ʃən/",
+    "translation": "solishtirish, muvofiqlashtirish",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "odoo",
+    "examples": [
+      "Bank reconciliation ensures our records match the bank statement.",
+      "Monthly reconciliation helps identify discrepancies.",
+      "The accountant is working on the reconciliation report."
+    ],
+    "usage": "Use \"reconciliation\" in accounting to refer to the process of matching two sets of records to ensure they agree.",
+    "synonyms": ["matching", "balancing", "verification"],
+    "antonyms": ["discrepancy", "mismatch"]
+  },
+  {
+    "id": "workflow",
+    "word": "workflow",
+    "ipa": "/ˈwɜːrk.floʊ/",
+    "translation": "ish jarayoni",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "odoo",
+    "examples": [
+      "The approval workflow requires three levels of sign-off.",
+      "We automated the invoice workflow in Odoo.",
+      "A clear workflow improves team productivity."
+    ],
+    "usage": "Use \"workflow\" to refer to the sequence of steps in a work process.",
+    "synonyms": ["process", "procedure", "pipeline"],
+    "antonyms": []
+  },
+  {
+    "id": "access_rights",
+    "word": "access rights",
+    "ipa": "/ˈæk.ses raɪts/",
+    "translation": "kirish huquqlari",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "odoo",
+    "examples": [
+      "Only administrators have full access rights.",
+      "We need to configure access rights for the new module.",
+      "Access rights control who can view or edit records."
+    ],
+    "usage": "Use \"access rights\" to refer to permissions that control what users can do in a system.",
+    "synonyms": ["permissions", "privileges", "authorization"],
+    "antonyms": ["restrictions", "limitations"]
+  },
+  {
+    "id": "purchase_order",
+    "word": "purchase order",
+    "ipa": "/ˈpɜːr.tʃəs ˈɔːr.dər/",
+    "translation": "xarid buyurtmasi",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "odoo",
+    "examples": [
+      "The purchase order was approved by the manager.",
+      "We need to create a purchase order for office supplies.",
+      "The purchase order number is PO-2024-001."
+    ],
+    "usage": "Use \"purchase order\" to refer to a formal document issued by a buyer to a seller, indicating the type, quantity, and price of products.",
+    "synonyms": ["PO", "order", "requisition"],
+    "antonyms": []
+  },
+  {
+    "id": "submit",
+    "word": "submit",
+    "ipa": "/səbˈmɪt/",
+    "translation": "topshirmoq, yubormoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "odoo",
+    "examples": [
+      "Please submit your report by Friday.",
+      "She submitted the expense claim for approval.",
+      "You can submit the form online."
+    ],
+    "usage": "Use \"submit\" when presenting something to someone for consideration or approval.",
+    "synonyms": ["present", "file", "hand in"],
+    "antonyms": ["withdraw", "retract"]
+  },
+  {
+    "id": "approve",
+    "word": "approve",
+    "ipa": "/əˈpruːv/",
+    "translation": "tasdiqlash, ma'qullash",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "odoo",
+    "examples": [
+      "The manager needs to approve the budget.",
+      "Your leave request has been approved.",
+      "The board approved the new policy."
+    ],
+    "usage": "Use \"approve\" when officially agreeing to or accepting something.",
+    "synonyms": ["authorize", "endorse", "sanction"],
+    "antonyms": ["reject", "deny", "refuse"]
+  },
+  {
+    "id": "reject",
+    "word": "reject",
+    "ipa": "/rɪˈdʒekt/",
+    "translation": "rad etmoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "odoo",
+    "examples": [
+      "The quality inspector rejected the batch.",
+      "His application was rejected due to incomplete documents.",
+      "The committee rejected the proposal."
+    ],
+    "usage": "Use \"reject\" when refusing to accept, consider, or approve something.",
+    "synonyms": ["decline", "refuse", "turn down"],
+    "antonyms": ["accept", "approve", "embrace"]
+  },
+  {
+    "id": "cancel",
+    "word": "cancel",
+    "ipa": "/ˈkæn.səl/",
+    "translation": "bekor qilmoq",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "category": "odoo",
+    "examples": [
+      "We had to cancel the order due to stock issues.",
+      "The flight was cancelled because of the storm.",
+      "You can cancel your subscription at any time."
+    ],
+    "usage": "Use \"cancel\" when deciding that something previously planned will not happen.",
+    "synonyms": ["annul", "revoke", "call off"],
+    "antonyms": ["confirm", "schedule", "proceed"]
+  },
+  {
+    "id": "confirm",
+    "word": "confirm",
+    "ipa": "/kənˈfɜːrm/",
+    "translation": "tasdiqlash",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "odoo",
+    "examples": [
+      "Please confirm your attendance by Monday.",
+      "The hotel confirmed our reservation.",
+      "Can you confirm the delivery date?"
+    ],
+    "usage": "Use \"confirm\" when making something definite or verifying that something is correct.",
+    "synonyms": ["verify", "validate", "affirm"],
+    "antonyms": ["deny", "cancel", "contradict"]
+  },
+  {
+    "id": "validate",
+    "word": "validate",
+    "ipa": "/ˈvæl.ɪ.deɪt/",
+    "translation": "tekshirmoq, tasdiqlash",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "odoo",
+    "examples": [
+      "We need to validate the data before importing it.",
+      "The system validates user input automatically.",
+      "Click 'Validate' to confirm the stock movement."
+    ],
+    "usage": "Use \"validate\" when checking or proving that something is correct, accurate, or acceptable.",
+    "synonyms": ["verify", "confirm", "authenticate"],
+    "antonyms": ["invalidate", "disprove"]
+  },
+  {
+    "id": "configuration",
+    "word": "configuration",
+    "ipa": "/kənˌfɪɡ.jəˈreɪ.ʃən/",
+    "translation": "sozlash, konfiguratsiya",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "odoo",
+    "examples": [
+      "The system configuration needs to be updated.",
+      "Check the configuration settings before running the program.",
+      "Default configuration works for most users."
+    ],
+    "usage": "Use \"configuration\" to refer to the arrangement or setup of components in a system.",
+    "synonyms": ["setup", "settings", "arrangement"],
+    "antonyms": []
+  },
+  {
+    "id": "request",
+    "word": "request",
+    "ipa": "/rɪˈkwest/",
+    "translation": "so'rov, iltimos",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "odoo",
+    "examples": [
+      "She submitted a request for time off.",
+      "The IT department received a request to fix the printer.",
+      "Please include all details in your request."
+    ],
+    "usage": "Use \"request\" as a formal way to ask for something.",
+    "synonyms": ["petition", "application", "appeal"],
+    "antonyms": ["demand", "command"]
+  },
+  {
+    "id": "permissions",
+    "word": "permissions",
+    "ipa": "/pəˈmɪʃ.ənz/",
+    "translation": "ruxsatlar, huquqlar",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "odoo",
+    "examples": [
+      "Users need the right permissions to access this module.",
+      "File permissions determine who can read or write files.",
+      "The administrator can change user permissions."
+    ],
+    "usage": "Use \"permissions\" to refer to the rights given to users to perform specific actions in a system.",
+    "synonyms": ["access rights", "privileges", "authorization"],
+    "antonyms": ["restrictions", "prohibitions"]
+  },
+  {
+    "id": "approval_process",
+    "word": "approval process",
+    "ipa": "/əˈpruː.vəl ˈprɒs.es/",
+    "translation": "tasdiqlash jarayoni",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "odoo",
+    "examples": [
+      "The approval process has three stages.",
+      "We simplified the approval process to save time.",
+      "The purchase must go through the approval process."
+    ],
+    "usage": "Use \"approval process\" to describe the sequence of steps required to get official agreement.",
+    "synonyms": ["authorization flow", "sign-off procedure"],
+    "antonyms": []
+  },
+  {
+    "id": "comprehensive_ielts",
+    "word": "comprehension",
+    "ipa": "/ˌkɒm.prɪˈhen.ʃən/",
+    "translation": "tushunish",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "Reading comprehension is tested in the IELTS exam.",
+      "His comprehension of the topic is impressive.",
+      "The course improves listening comprehension."
+    ],
+    "usage": "Use \"comprehension\" to refer to the ability to understand something.",
+    "synonyms": ["understanding", "grasp", "perception"],
+    "antonyms": ["confusion", "misunderstanding"]
+  },
+  {
+    "id": "paraphrase",
+    "word": "paraphrase",
+    "ipa": "/ˈpær.ə.freɪz/",
+    "translation": "boshqa so'zlar bilan ifodalash",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "Try to paraphrase the question in your own words.",
+      "Paraphrasing is an important skill in academic writing.",
+      "She paraphrased the original text effectively."
+    ],
+    "usage": "Use \"paraphrase\" when expressing the meaning of something using different words.",
+    "synonyms": ["rephrase", "reword", "restate"],
+    "antonyms": ["quote", "copy"]
+  },
+  {
+    "id": "coherent",
+    "word": "coherent",
+    "ipa": "/koʊˈhɪr.ənt/",
+    "translation": "izchil, mantiqiy",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "Your essay needs to be more coherent.",
+      "She gave a coherent explanation of the problem.",
+      "The arguments in the paper are well-structured and coherent."
+    ],
+    "usage": "Use \"coherent\" to describe something that is logical, consistent, and easy to understand.",
+    "synonyms": ["logical", "consistent", "clear"],
+    "antonyms": ["incoherent", "disjointed", "confused"]
+  },
+  {
+    "id": "elaborate",
+    "word": "elaborate",
+    "ipa": "/ɪˈlæb.ə.reɪt/",
+    "translation": "batafsil bayon qilmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "Could you elaborate on your answer?",
+      "The speaker elaborated on the key points.",
+      "Please elaborate with specific examples."
+    ],
+    "usage": "Use \"elaborate\" when explaining something in more detail.",
+    "synonyms": ["expand", "develop", "detail"],
+    "antonyms": ["summarize", "simplify", "condense"]
+  },
+  {
+    "id": "perspective",
+    "word": "perspective",
+    "ipa": "/pərˈspek.tɪv/",
+    "translation": "nuqtai nazar",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "From my perspective, the plan is risky.",
+      "Try to see things from a different perspective.",
+      "The article offers a fresh perspective on the issue."
+    ],
+    "usage": "Use \"perspective\" to refer to a particular way of thinking about or viewing something.",
+    "synonyms": ["viewpoint", "standpoint", "outlook"],
+    "antonyms": []
+  },
+  {
+    "id": "phenomenon",
+    "word": "phenomenon",
+    "ipa": "/fɪˈnɒm.ɪ.nən/",
+    "translation": "hodisa, fenomen",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "Climate change is a global phenomenon.",
+      "Social media is a relatively recent phenomenon.",
+      "Scientists are studying this phenomenon."
+    ],
+    "usage": "Use \"phenomenon\" to describe a fact or event that can be observed, especially one that is not fully understood.",
+    "synonyms": ["occurrence", "event", "happening"],
+    "antonyms": []
+  },
+  {
+    "id": "substantial",
+    "word": "substantial",
+    "ipa": "/səbˈstæn.ʃəl/",
+    "translation": "katta, sezilarli",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "There has been a substantial increase in sales.",
+      "She inherited a substantial amount of money.",
+      "The study found substantial evidence for the theory."
+    ],
+    "usage": "Use \"substantial\" to describe something that is large in amount, value, or importance.",
+    "synonyms": ["considerable", "significant", "sizeable"],
+    "antonyms": ["negligible", "insignificant", "minor"]
+  },
+  {
+    "id": "inevitable",
+    "word": "inevitable",
+    "ipa": "/ɪnˈev.ɪ.tə.bəl/",
+    "translation": "muqarrar",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "Change is inevitable in any organization.",
+      "The accident was inevitable given the road conditions.",
+      "It was inevitable that the truth would come out."
+    ],
+    "usage": "Use \"inevitable\" to describe something that is certain to happen and cannot be prevented.",
+    "synonyms": ["unavoidable", "inescapable", "certain"],
+    "antonyms": ["avoidable", "preventable", "uncertain"]
+  },
+  {
+    "id": "controversy",
+    "word": "controversy",
+    "ipa": "/ˈkɒn.trə.vɜː.si/",
+    "translation": "munozara, tortishuv",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "The new law caused a lot of controversy.",
+      "There is controversy over the use of AI in education.",
+      "The decision sparked controversy among the public."
+    ],
+    "usage": "Use \"controversy\" to describe a prolonged public disagreement or heated discussion.",
+    "synonyms": ["debate", "dispute", "argument"],
+    "antonyms": ["agreement", "consensus", "harmony"]
+  },
+  {
+    "id": "hypothesis",
+    "word": "hypothesis",
+    "ipa": "/haɪˈpɒθ.ə.sɪs/",
+    "translation": "gipoteza, faraz",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "The scientist proposed a new hypothesis.",
+      "We need to test this hypothesis with experiments.",
+      "The hypothesis was supported by the data."
+    ],
+    "usage": "Use \"hypothesis\" to refer to a proposed explanation that can be tested through research.",
+    "synonyms": ["theory", "assumption", "proposition"],
+    "antonyms": ["fact", "proof", "certainty"]
+  },
+  {
+    "id": "implications",
+    "word": "implications",
+    "ipa": "/ˌɪm.plɪˈkeɪ.ʃənz/",
+    "translation": "oqibatlar, ta'sirlari",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "The implications of this decision are far-reaching.",
+      "We need to consider the financial implications.",
+      "AI has major implications for the job market."
+    ],
+    "usage": "Use \"implications\" to refer to the possible effects or consequences of something.",
+    "synonyms": ["consequences", "effects", "ramifications"],
+    "antonyms": []
+  },
+  {
+    "id": "predominant",
+    "word": "predominant",
+    "ipa": "/prɪˈdɒm.ɪ.nənt/",
+    "translation": "asosiy, ustun",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "English is the predominant language in business.",
+      "The predominant color in the painting is blue.",
+      "Tourism is the predominant industry in the region."
+    ],
+    "usage": "Use \"predominant\" to describe something that is the main or most important element.",
+    "synonyms": ["dominant", "main", "primary"],
+    "antonyms": ["minor", "secondary", "subordinate"]
+  },
+  {
+    "id": "deteriorate",
+    "word": "deteriorate",
+    "ipa": "/dɪˈtɪr.i.ə.reɪt/",
+    "translation": "yomonlashmoq",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "His health began to deteriorate rapidly.",
+      "The economic situation continued to deteriorate.",
+      "Air quality deteriorates during the summer months."
+    ],
+    "usage": "Use \"deteriorate\" when something becomes progressively worse.",
+    "synonyms": ["worsen", "decline", "degrade"],
+    "antonyms": ["improve", "recover", "enhance"]
+  },
+  {
+    "id": "fluctuate",
+    "word": "fluctuate",
+    "ipa": "/ˈflʌk.tʃu.eɪt/",
+    "translation": "o'zgarib turmoq",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "Stock prices fluctuate throughout the day.",
+      "Temperatures fluctuate between 20 and 35 degrees.",
+      "The exchange rate fluctuates based on market conditions."
+    ],
+    "usage": "Use \"fluctuate\" to describe irregular rising and falling movements in quantity or level.",
+    "synonyms": ["vary", "oscillate", "swing"],
+    "antonyms": ["stabilize", "remain constant"]
+  },
+  {
+    "id": "ambiguous",
+    "word": "ambiguous",
+    "ipa": "/æmˈbɪɡ.ju.əs/",
+    "translation": "noaniq, ikki ma'noli",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "The instructions were ambiguous and confusing.",
+      "The law contains some ambiguous language.",
+      "His response was deliberately ambiguous."
+    ],
+    "usage": "Use \"ambiguous\" to describe something that can be interpreted in more than one way.",
+    "synonyms": ["vague", "unclear", "equivocal"],
+    "antonyms": ["clear", "unambiguous", "definite"]
+  },
+  {
+    "id": "constraint",
+    "word": "constraint",
+    "ipa": "/kənˈstreɪnt/",
+    "translation": "cheklov",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "Budget constraints limit what we can achieve.",
+      "Time is a major constraint on this project.",
+      "We need to work within the constraints of the system."
+    ],
+    "usage": "Use \"constraint\" to refer to a limitation or restriction on what you can do.",
+    "synonyms": ["limitation", "restriction", "barrier"],
+    "antonyms": ["freedom", "flexibility"]
+  },
+  {
+    "id": "acquire",
+    "word": "acquire",
+    "ipa": "/əˈkwaɪər/",
+    "translation": "qo'lga kiritmoq, egalamoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "She acquired a new skill during the course.",
+      "The company acquired a smaller competitor.",
+      "Language is easier to acquire at a young age."
+    ],
+    "usage": "Use \"acquire\" as a formal way of saying 'get' or 'gain', especially for knowledge, skills, or business assets.",
+    "synonyms": ["obtain", "gain", "secure"],
+    "antonyms": ["lose", "forfeit", "surrender"]
+  },
+  {
+    "id": "analyze",
+    "word": "analyze",
+    "ipa": "/ˈæn.ə.laɪz/",
+    "translation": "tahlil qilmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "We need to analyze the data carefully.",
+      "The report analyzes market trends over five years.",
+      "Researchers analyzed the results of the experiment."
+    ],
+    "usage": "Use \"analyze\" when examining something in detail to understand or explain it.",
+    "synonyms": ["examine", "study", "investigate"],
+    "antonyms": ["ignore", "overlook"]
+  },
+  {
+    "id": "innovation",
+    "word": "innovation",
+    "ipa": "/ˌɪn.əˈveɪ.ʃən/",
+    "translation": "innovatsiya, yangilik",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "Innovation drives economic growth.",
+      "The company is known for its technological innovation.",
+      "We need more innovation in our approach to problem-solving."
+    ],
+    "usage": "Use \"innovation\" to refer to a new idea, method, or device, or the process of introducing new things.",
+    "synonyms": ["invention", "novelty", "breakthrough"],
+    "antonyms": ["tradition", "convention"]
+  },
+  {
+    "id": "comply",
+    "word": "comply",
+    "ipa": "/kəmˈplaɪ/",
+    "translation": "rioya qilmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "All employees must comply with the company's policies.",
+      "The product complies with international safety standards.",
+      "Failure to comply may result in legal action."
+    ],
+    "usage": "Use \"comply\" when acting in accordance with a rule, standard, or request.",
+    "synonyms": ["obey", "follow", "adhere to"],
+    "antonyms": ["violate", "disobey", "defy"]
+  },
+  {
+    "id": "allocate",
+    "word": "allocate",
+    "ipa": "/ˈæl.ə.keɪt/",
+    "translation": "taqsimlamoq, ajratmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "We need to allocate more resources to this project.",
+      "The budget has been allocated across departments.",
+      "Time should be allocated for team meetings."
+    ],
+    "usage": "Use \"allocate\" when distributing resources or duties for a particular purpose.",
+    "synonyms": ["assign", "distribute", "apportion"],
+    "antonyms": ["withhold", "retain"]
+  },
+  {
+    "id": "mitigate",
+    "word": "mitigate",
+    "ipa": "/ˈmɪt.ɪ.ɡeɪt/",
+    "translation": "yumshatmoq, kamaytirmoq",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "category": "business",
+    "examples": [
+      "We took steps to mitigate the risks.",
+      "The company implemented measures to mitigate losses.",
+      "Planting trees can help mitigate climate change."
+    ],
+    "usage": "Use \"mitigate\" when making something less severe, serious, or painful.",
+    "synonyms": ["reduce", "lessen", "alleviate"],
+    "antonyms": ["aggravate", "worsen", "intensify"]
+  },
+  {
+    "id": "benchmark",
+    "word": "benchmark",
+    "ipa": "/ˈbentʃ.mɑːrk/",
+    "translation": "me'yoriy ko'rsatkich",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "This score serves as a benchmark for future performance.",
+      "We need to establish benchmarks for success.",
+      "The industry benchmark for response time is 24 hours."
+    ],
+    "usage": "Use \"benchmark\" to refer to a standard or point of reference against which things can be measured.",
+    "synonyms": ["standard", "reference point", "baseline"],
+    "antonyms": []
+  },
+  {
+    "id": "liability",
+    "word": "liability",
+    "ipa": "/ˌlaɪ.əˈbɪl.ə.ti/",
+    "translation": "majburiyat, javobgarlik",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "business",
+    "examples": [
+      "The company's liabilities exceeded its assets.",
+      "Insurance helps reduce financial liability.",
+      "You may be held liable for any damages."
+    ],
+    "usage": "Use \"liability\" in business or law to refer to debts or legal responsibility.",
+    "synonyms": ["obligation", "debt", "responsibility"],
+    "antonyms": ["asset", "advantage"]
+  },
+  {
+    "id": "api",
+    "word": "API",
+    "ipa": "/ˌeɪ.piːˈaɪ/",
+    "translation": "dasturiy interfeys",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "The API allows third-party applications to access our data.",
+      "We documented all available API endpoints.",
+      "The REST API returns JSON responses."
+    ],
+    "usage": "Use \"API\" (Application Programming Interface) to refer to a set of rules that allow software applications to communicate with each other.",
+    "synonyms": ["interface", "endpoint"],
+    "antonyms": []
+  },
+  {
+    "id": "middleware",
+    "word": "middleware",
+    "ipa": "/ˈmɪd.əl.wer/",
+    "translation": "vositachi dastur",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "it",
+    "examples": [
+      "The middleware handles authentication before the request reaches the server.",
+      "We added logging middleware to track all API calls.",
+      "Middleware sits between the client and the server."
+    ],
+    "usage": "Use \"middleware\" to refer to software that connects different applications or components.",
+    "synonyms": ["intermediary", "connector"],
+    "antonyms": []
+  },
+  {
+    "id": "responsive",
+    "word": "responsive",
+    "ipa": "/rɪˈspɒn.sɪv/",
+    "translation": "moslashuvchan, sezgir",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "The website has a responsive design that works on all devices.",
+      "The application is fast and responsive.",
+      "A responsive UI improves user satisfaction."
+    ],
+    "usage": "Use \"responsive\" in web development to describe designs that adapt to different screen sizes, or generally to describe quick reactions.",
+    "synonyms": ["adaptive", "flexible", "reactive"],
+    "antonyms": ["unresponsive", "rigid", "static"]
+  },
+  {
+    "id": "deprecated",
+    "word": "deprecated",
+    "ipa": "/ˈdep.rə.keɪ.tɪd/",
+    "translation": "eskirgan, tavsiya etilmaydigan",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "category": "it",
+    "examples": [
+      "This function is deprecated and will be removed in the next version.",
+      "Please use the new API instead of the deprecated one.",
+      "Deprecated features should not be used in new code."
+    ],
+    "usage": "Use \"deprecated\" in software to describe features or functions that are no longer recommended and may be removed in the future.",
+    "synonyms": ["outdated", "obsolete", "superseded"],
+    "antonyms": ["current", "supported", "recommended"]
+  },
+  {
+    "id": "simultaneously",
+    "word": "simultaneously",
+    "ipa": "/ˌsɪm.əlˈteɪ.ni.əs.li/",
+    "translation": "bir vaqtda",
+    "partOfSpeech": "adverb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "The event will be broadcast simultaneously in three languages.",
+      "She was simultaneously working on two projects.",
+      "Both doors opened simultaneously."
+    ],
+    "usage": "Use \"simultaneously\" when two or more things happen at the same time.",
+    "synonyms": ["concurrently", "at the same time", "together"],
+    "antonyms": ["separately", "sequentially"]
+  },
+  {
+    "id": "reluctant",
+    "word": "reluctant",
+    "ipa": "/rɪˈlʌk.tənt/",
+    "translation": "istaksiz, norozilik bilan",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "She was reluctant to share her opinion.",
+      "He seemed reluctant to accept the offer.",
+      "Many employees were reluctant to adopt the new system."
+    ],
+    "usage": "Use \"reluctant\" to describe someone who is unwilling or hesitant to do something.",
+    "synonyms": ["unwilling", "hesitant", "disinclined"],
+    "antonyms": ["eager", "willing", "enthusiastic"]
+  },
+  {
+    "id": "distinguish",
+    "word": "distinguish",
+    "ipa": "/dɪˈstɪŋ.ɡwɪʃ/",
+    "translation": "farqlash, ajratmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "It's important to distinguish between fact and opinion.",
+      "What distinguishes this product from its competitors?",
+      "She distinguished herself as a brilliant researcher."
+    ],
+    "usage": "Use \"distinguish\" when recognizing or pointing out differences between things.",
+    "synonyms": ["differentiate", "tell apart", "discern"],
+    "antonyms": ["confuse", "mix up"]
+  },
+  {
+    "id": "merely",
+    "word": "merely",
+    "ipa": "/ˈmɪr.li/",
+    "translation": "faqat, shunchaki",
+    "partOfSpeech": "adverb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "I was merely suggesting an idea.",
+      "This is merely the beginning.",
+      "He merely smiled and said nothing."
+    ],
+    "usage": "Use \"merely\" to emphasize that something is small, unimportant, or only what is stated.",
+    "synonyms": ["simply", "just", "only"],
+    "antonyms": ["significantly", "considerably"]
+  },
+  {
+    "id": "comply_ielts",
+    "word": "predominate",
+    "ipa": "/prɪˈdɒm.ɪ.neɪt/",
+    "translation": "ustunlik qilmoq",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "Service industries predominate in the economy.",
+      "Dark colors predominate in this collection.",
+      "In the south, agriculture still predominates."
+    ],
+    "usage": "Use \"predominate\" when one thing is the most common, prominent, or powerful in a group.",
+    "synonyms": ["dominate", "prevail", "outweigh"],
+    "antonyms": ["yield", "submit"]
+  },
+  {
+    "id": "negligible",
+    "word": "negligible",
+    "ipa": "/ˈneɡ.lɪ.dʒə.bəl/",
+    "translation": "ahamiyatsiz, juda oz",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "The impact on the environment is negligible.",
+      "The difference in price is negligible.",
+      "There was a negligible increase in temperature."
+    ],
+    "usage": "Use \"negligible\" to describe something so small or unimportant that it is not worth considering.",
+    "synonyms": ["insignificant", "trivial", "minimal"],
+    "antonyms": ["significant", "substantial", "considerable"]
+  },
+  {
+    "id": "plummet",
+    "word": "plummet",
+    "ipa": "/ˈplʌm.ɪt/",
+    "translation": "keskin tushmoq",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "Stock prices plummeted after the announcement.",
+      "Temperatures plummeted below zero overnight.",
+      "Sales plummeted due to the economic crisis."
+    ],
+    "usage": "Use \"plummet\" when something decreases rapidly and dramatically.",
+    "synonyms": ["plunge", "drop", "nosedive"],
+    "antonyms": ["soar", "skyrocket", "surge"]
+  },
+  {
+    "id": "surge",
+    "word": "surge",
+    "ipa": "/sɜːrdʒ/",
+    "translation": "keskin oshish",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "There was a surge in demand for electric vehicles.",
+      "The company experienced a surge in profits.",
+      "A surge of energy swept through the crowd."
+    ],
+    "usage": "Use \"surge\" to describe a sudden and great increase in something.",
+    "synonyms": ["increase", "rise", "boost"],
+    "antonyms": ["decline", "drop", "decrease"]
+  },
+  {
+    "id": "undergo",
+    "word": "undergo",
+    "ipa": "/ˌʌn.dərˈɡoʊ/",
+    "translation": "boshdan kechirmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "The city has undergone major changes in recent years.",
+      "Patients must undergo a medical examination.",
+      "The system is undergoing maintenance."
+    ],
+    "usage": "Use \"undergo\" when experiencing or being subjected to something, usually something difficult or unpleasant.",
+    "synonyms": ["experience", "endure", "go through"],
+    "antonyms": ["avoid", "escape"]
+  },
+  {
+    "id": "revise",
+    "word": "revise",
+    "ipa": "/rɪˈvaɪz/",
+    "translation": "qayta ko'rmoq, tuzatmoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "ielts",
+    "examples": [
+      "I need to revise my essay before submitting it.",
+      "The government revised the policy after public feedback.",
+      "Students should revise regularly for their exams."
+    ],
+    "usage": "Use \"revise\" when making changes to something to improve or update it, or when studying material again.",
+    "synonyms": ["amend", "modify", "update"],
+    "antonyms": ["maintain", "preserve"]
+  },
+  {
+    "id": "feasible",
+    "word": "feasible",
+    "ipa": "/ˈfiː.zə.bəl/",
+    "translation": "amalga oshirish mumkin bo'lgan",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "category": "business",
+    "examples": [
+      "Is it feasible to complete the project in three months?",
+      "We need a feasible solution to this problem.",
+      "The plan is technically feasible but expensive."
+    ],
+    "usage": "Use \"feasible\" to describe something that is possible and practical to do.",
+    "synonyms": ["possible", "practical", "viable"],
+    "antonyms": ["unfeasible", "impractical", "impossible"]
+  },
+  {
+    "id": "implement_it",
+    "word": "implementation",
+    "ipa": "/ˌɪm.plɪ.menˈteɪ.ʃən/",
+    "translation": "amalga oshirish, joriy etish",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "The implementation of the new system took six months.",
+      "We are in the implementation phase of the project.",
+      "Poor implementation led to unexpected bugs."
+    ],
+    "usage": "Use \"implementation\" to refer to the process of putting a plan or system into action.",
+    "synonyms": ["execution", "deployment", "realization"],
+    "antonyms": ["planning", "design"]
+  },
+  {
+    "id": "retrieve",
+    "word": "retrieve",
+    "ipa": "/rɪˈtriːv/",
+    "translation": "qaytarib olmoq, topib olmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "The function retrieves data from the database.",
+      "Can we retrieve the deleted files?",
+      "The system retrieves search results in milliseconds."
+    ],
+    "usage": "Use \"retrieve\" when getting or finding something that was stored or lost.",
+    "synonyms": ["fetch", "recover", "get"],
+    "antonyms": ["store", "save", "lose"]
+  },
+  {
+    "id": "compatible",
+    "word": "compatible",
+    "ipa": "/kəmˈpæt.ɪ.bəl/",
+    "translation": "mos keladigan",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "it",
+    "examples": [
+      "The software is compatible with Windows and macOS.",
+      "Make sure your browser is compatible with the latest version.",
+      "These two systems are not compatible with each other."
+    ],
+    "usage": "Use \"compatible\" to describe things that can work together or exist together without problems.",
+    "synonyms": ["harmonious", "consistent", "congruent"],
+    "antonyms": ["incompatible", "conflicting"]
+  },
+  {
+    "id": "acknowledge",
+    "word": "acknowledge",
+    "ipa": "/əkˈnɒl.ɪdʒ/",
+    "translation": "tan olmoq, e'tirof etmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "He acknowledged that he had made a mistake.",
+      "The company acknowledged the problem and promised to fix it.",
+      "She acknowledged receipt of the package."
+    ],
+    "usage": "Use \"acknowledge\" when accepting or recognizing that something is true or exists.",
+    "synonyms": ["recognize", "admit", "accept"],
+    "antonyms": ["deny", "ignore", "reject"]
+  },
+  {
+    "id": "anticipate",
+    "word": "anticipate",
+    "ipa": "/ænˈtɪs.ɪ.peɪt/",
+    "translation": "kutmoq, oldindan bilmoq",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "We anticipate a busy season ahead.",
+      "No one anticipated the sudden change in plans.",
+      "They anticipated the problems and prepared solutions."
+    ],
+    "usage": "Use \"anticipate\" when expecting or predicting something before it happens.",
+    "synonyms": ["expect", "foresee", "predict"],
+    "antonyms": ["overlook", "ignore"]
+  },
+  {
+    "id": "module",
+    "word": "module",
+    "ipa": "/ˈmɒdʒ.uːl/",
+    "translation": "modul",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "odoo",
+    "examples": [
+      "Install the Sales module to manage customer orders.",
+      "Each module in Odoo handles a specific business function.",
+      "The HR module tracks employee information."
+    ],
+    "usage": "Use \"module\" to refer to a self-contained unit or component of a larger system.",
+    "synonyms": ["component", "unit", "section"],
+    "antonyms": []
+  },
+  {
+    "id": "depreciation",
+    "word": "depreciation",
+    "ipa": "/dɪˌpriː.ʃiˈeɪ.ʃən/",
+    "translation": "amortizatsiya, qiymat pasayishi",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "odoo",
+    "examples": [
+      "Asset depreciation is calculated monthly.",
+      "The depreciation rate for computers is typically 3-5 years.",
+      "Odoo handles asset depreciation automatically."
+    ],
+    "usage": "Use \"depreciation\" in accounting to refer to the decrease in value of an asset over time.",
+    "synonyms": ["devaluation", "reduction in value"],
+    "antonyms": ["appreciation", "increase in value"]
+  },
+  {
+    "id": "prerequisite",
+    "word": "prerequisite",
+    "ipa": "/priːˈrek.wə.zɪt/",
+    "translation": "shart, oldindan talab",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "A bachelor's degree is a prerequisite for the program.",
+      "Basic computer skills are a prerequisite for this course.",
+      "Good planning is a prerequisite for success."
+    ],
+    "usage": "Use \"prerequisite\" to refer to something that is required before something else can happen.",
+    "synonyms": ["requirement", "precondition", "necessity"],
+    "antonyms": ["optional", "bonus"]
+  },
+  {
+    "id": "consolidate",
+    "word": "consolidate",
+    "ipa": "/kənˈsɒl.ɪ.deɪt/",
+    "translation": "birlashtirmoq, mustahkamlamoq",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "category": "business",
+    "examples": [
+      "The company consolidated its operations into one location.",
+      "We need to consolidate the reports from all departments.",
+      "She consolidated her position as team leader."
+    ],
+    "usage": "Use \"consolidate\" when combining several things into one or strengthening a position.",
+    "synonyms": ["combine", "merge", "strengthen"],
+    "antonyms": ["separate", "divide", "weaken"]
+  },
+  {
+    "id": "diligent",
+    "word": "diligent",
+    "ipa": "/ˈdɪl.ɪ.dʒənt/",
+    "translation": "tirishqoq, mehnatsevar",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "She is a diligent student who always completes her work on time.",
+      "Diligent employees are valued by every company.",
+      "Through diligent effort, he mastered the language."
+    ],
+    "usage": "Use \"diligent\" to describe someone who works hard and carefully.",
+    "synonyms": ["hardworking", "industrious", "conscientious"],
+    "antonyms": ["lazy", "negligent", "careless"]
+  },
+  {
+    "id": "ambition",
+    "word": "ambition",
+    "ipa": "/æmˈbɪʃ.ən/",
+    "translation": "intilish, maqsad",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "Her ambition is to become a successful entrepreneur.",
+      "He is full of ambition and determination.",
+      "Political ambition drives many leaders."
+    ],
+    "usage": "Use \"ambition\" to describe a strong desire to achieve something.",
+    "synonyms": ["aspiration", "goal", "drive"],
+    "antonyms": ["apathy", "indifference", "laziness"]
+  },
+  {
+    "id": "equivalent",
+    "word": "equivalent",
+    "ipa": "/ɪˈkwɪv.ə.lənt/",
+    "translation": "teng, ekvivalent",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "One dollar is roughly equivalent to 12,500 Uzbek soum.",
+      "There is no equivalent word in Uzbek for this concept.",
+      "The qualification is equivalent to a master's degree."
+    ],
+    "usage": "Use \"equivalent\" to describe something that is equal in value, function, or meaning.",
+    "synonyms": ["equal", "comparable", "corresponding"],
+    "antonyms": ["different", "unequal", "dissimilar"]
+  },
+  {
+    "id": "enormous",
+    "word": "enormous",
+    "ipa": "/ɪˈnɔːr.məs/",
+    "translation": "ulkan, juda katta",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "The company has made enormous progress this year.",
+      "There is an enormous demand for IT professionals.",
+      "The building has an enormous lobby."
+    ],
+    "usage": "Use \"enormous\" to describe something very large in size, quantity, or extent.",
+    "synonyms": ["huge", "massive", "immense"],
+    "antonyms": ["tiny", "small", "minute"]
+  },
+  {
+    "id": "preliminary",
+    "word": "preliminary",
+    "ipa": "/prɪˈlɪm.ɪ.ner.i/",
+    "translation": "dastlabki",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "The preliminary results are promising.",
+      "We conducted a preliminary analysis before the full study.",
+      "The preliminary meeting set the agenda for the conference."
+    ],
+    "usage": "Use \"preliminary\" to describe something that comes before and prepares for the main event.",
+    "synonyms": ["initial", "introductory", "preparatory"],
+    "antonyms": ["final", "conclusive", "definitive"]
+  },
+  {
+    "id": "sustainable",
+    "word": "sustainable",
+    "ipa": "/səˈsteɪ.nə.bəl/",
+    "translation": "barqaror",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "We need to find sustainable energy sources.",
+      "Sustainable development balances economic growth and environmental protection.",
+      "The company adopted sustainable business practices."
+    ],
+    "usage": "Use \"sustainable\" to describe practices or systems that can continue over time without depleting resources.",
+    "synonyms": ["viable", "maintainable", "enduring"],
+    "antonyms": ["unsustainable", "destructive"]
+  },
+  {
+    "id": "versatile",
+    "word": "versatile",
+    "ipa": "/ˈvɜː.sə.taɪl/",
+    "translation": "ko'p qirrali, universal",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "general",
+    "examples": [
+      "Python is a versatile programming language.",
+      "She is a versatile musician who plays five instruments.",
+      "The tool is versatile enough for many different tasks."
+    ],
+    "usage": "Use \"versatile\" to describe something or someone that can adapt to many different functions or activities.",
+    "synonyms": ["adaptable", "flexible", "multifaceted"],
+    "antonyms": ["limited", "inflexible", "specialized"]
+  },
+  {
+    "id": "transparent",
+    "word": "transparent",
+    "ipa": "/trænˈspær.ənt/",
+    "translation": "shaffof, ochiq",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "The company promises transparent decision-making.",
+      "We need to be more transparent with our customers.",
+      "The process should be transparent and fair."
+    ],
+    "usage": "Use \"transparent\" to describe something that is open, honest, and easy to understand.",
+    "synonyms": ["open", "honest", "clear"],
+    "antonyms": ["opaque", "secretive", "hidden"]
+  },
+  {
+    "id": "leverage",
+    "word": "leverage",
+    "ipa": "/ˈlev.ər.ɪdʒ/",
+    "translation": "imkoniyatdan foydalanmoq",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "category": "business",
+    "examples": [
+      "We can leverage our expertise to enter new markets.",
+      "The company leveraged technology to reduce costs.",
+      "She leveraged her network to find new clients."
+    ],
+    "usage": "Use \"leverage\" when using something you have to maximum advantage.",
+    "synonyms": ["utilize", "exploit", "capitalize on"],
+    "antonyms": ["waste", "squander"]
+  },
+  {
+    "id": "initiative",
+    "word": "initiative",
+    "ipa": "/ɪˈnɪʃ.ə.tɪv/",
+    "translation": "tashabbuskorlik",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "She took the initiative to organize the event.",
+      "The government launched a new initiative for small businesses.",
+      "Employees who show initiative are often promoted."
+    ],
+    "usage": "Use \"initiative\" to describe the ability to act independently, or a new plan or strategy.",
+    "synonyms": ["enterprise", "drive", "program"],
+    "antonyms": ["passivity", "inaction"]
+  },
+  {
+    "id": "provision",
+    "word": "provision",
+    "ipa": "/prəˈvɪʒ.ən/",
+    "translation": "ta'minlash, shart",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "category": "business",
+    "examples": [
+      "The contract includes a provision for early termination.",
+      "We made provisions for unexpected expenses.",
+      "The provision of healthcare is a government responsibility."
+    ],
+    "usage": "Use \"provision\" to refer to a clause in a legal document, or the act of supplying something.",
+    "synonyms": ["clause", "stipulation", "supply"],
+    "antonyms": []
+  },
+  {
+    "id": "peer",
+    "word": "peer",
+    "ipa": "/pɪr/",
+    "translation": "tengdosh, hamkasb",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "She is respected among her peers.",
+      "Peer review improves the quality of research.",
+      "Students learn a lot from their peers."
+    ],
+    "usage": "Use \"peer\" to refer to someone who is equal to another in status, age, or ability.",
+    "synonyms": ["equal", "colleague", "counterpart"],
+    "antonyms": ["superior", "subordinate"]
+  },
+  {
+    "id": "generate",
+    "word": "generate",
+    "ipa": "/ˈdʒen.ə.reɪt/",
+    "translation": "hosil qilmoq, yaratmoq",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "category": "general",
+    "examples": [
+      "Solar panels generate electricity from sunlight.",
+      "The marketing campaign generated a lot of interest.",
+      "We need to generate new ideas for the project."
+    ],
+    "usage": "Use \"generate\" when producing or creating something.",
+    "synonyms": ["produce", "create", "yield"],
+    "antonyms": ["consume", "destroy"]
+  },
+  {
+    "id": "mandatory",
+    "word": "mandatory",
+    "ipa": "/ˈmæn.də.tɔːr.i/",
+    "translation": "majburiy",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "business",
+    "examples": [
+      "Safety training is mandatory for all new employees.",
+      "It is mandatory to wear a seatbelt while driving.",
+      "The company has mandatory reporting requirements."
+    ],
+    "usage": "Use \"mandatory\" to describe something that is required by law or rule.",
+    "synonyms": ["compulsory", "obligatory", "required"],
+    "antonyms": ["optional", "voluntary", "elective"]
+  },
+  {
+    "id": "resilient",
+    "word": "resilient",
+    "ipa": "/rɪˈzɪl.i.ənt/",
+    "translation": "chidamli, bardoshli",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "category": "ielts",
+    "examples": [
+      "Children are remarkably resilient and adapt quickly.",
+      "The economy has proven to be resilient despite challenges.",
+      "Building a resilient infrastructure is essential."
+    ],
+    "usage": "Use \"resilient\" to describe something or someone that can recover quickly from difficult conditions.",
+    "synonyms": ["tough", "adaptable", "strong"],
+    "antonyms": ["fragile", "vulnerable", "weak"]
+  },
+  {
+    "id": "concise",
+    "word": "concise",
+    "ipa": "/kənˈsaɪs/",
+    "translation": "qisqa va lo'nda",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "category": "ielts",
+    "examples": [
+      "Please keep your answer concise.",
+      "The report provides a concise summary of the findings.",
+      "A concise writing style is preferred in business communication."
+    ],
+    "usage": "Use \"concise\" to describe something that gives a lot of information clearly and in few words.",
+    "synonyms": ["brief", "succinct", "to the point"],
+    "antonyms": ["verbose", "wordy", "lengthy"]
+  }
+]
